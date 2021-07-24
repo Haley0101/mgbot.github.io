@@ -1,0 +1,72 @@
+/* 콘텐츠 */
+.content {
+    padding: 110px 100px 100px 100px;
+  }
+  
+  .dev {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  
+  #path_note {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
+    text-align: center;
+    width: 700px;
+  }
+  
+  .content_inner {
+    padding: 20px;
+  }
+  
+  .profile{
+    border-radius: 30px;
+    width: 200px;
+  }
+  
+  .info {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box1 h1 {
+    font-family: "Cafe24SsurroundAir";
+    font-size: 23px;
+    line-height: 2;
+    padding: 0px 4px;
+    margin: 0px;
+  }
+  
+  .box1 a {
+    padding: 0px 4px;
+  }
+  
+  .icon,
+  .fab,
+  .fas {
+    width: 15px;
+    color: #000000;
+  }
+  
+  .discord_username {
+    color: #5865F2;
+    font-size: 13px !important;
+  }
+  
+  .like {
+    width: 10px;
+  }
+  
+  hr {
+    color: #ffffff;
+    border-color: #ffffff;
+  }

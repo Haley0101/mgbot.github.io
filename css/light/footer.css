@@ -1,0 +1,59 @@
+/* 푸터 */
+footer {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer3 {
+    padding: 30px 0px;
+  }
+  
+  @media all and (min-width: 1520px) { 
+    .footer3 {
+      width: 1280px;
+    }
+  }
+  
+  @media all and (max-width: 1520px) { 
+    .footer3 {
+      width: 85vw;
+    }
+  }
+  
+  .footer1 {
+    padding-bottom: 30px;
+    display: flex;
+  }
+  
+  .footer1 div {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+  }
+  
+  .footer1 a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer1 img {
+    width: 100px;
+    padding-right: 5px;
+  }
+  
+  .logo4 {
+    height: 50px;
+    color: #ffffff;
+  }
+  
+  .footer-left {
+    margin-right: auto;
+  }
+  
+  .footer-right a {
+    padding: 0px 5px;
+  }
