@@ -10,14 +10,13 @@
   }
   
   #banner1 {
-    background: url("../../img/banner/banner1.png") no-repeat;
-    background-size: cover;
     color: #ffffff;
   }
   
   #banner1 h1 {
     font-size: 90px;
     margin-bottom: 25px;
+    color: #000000;
   }
   
   #banner1 div {
@@ -28,8 +27,10 @@
   #banner1 div a {
     font-size: 20px;
     margin-right: 10px;
+    color: #000000;
   }
   
-  #banner1 div img {
-    width: 20px;
+  #banner1 img {
+    position: relative;
+    width: 80px;
   }

@@ -2,6 +2,11 @@
 .content {
     padding: 110px 100px 100px 100px;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
   
   .back_ground {
     height: 130px;
@@ -85,9 +90,36 @@
     font-size: 13px !important;
     margin-right: auto;
   }
+
+  .path_note_header {
+    display: flex;
+  }
+
+  .path_note_footer {
+    display: flex;
+  }
   
   .like {
     width: 10px;
+  }
+  .like_count {
+    margin-right: auto;
+  }
+
+  .user_icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .user_icon_border {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid #000000;
+  }
+
+  .user_name {
+    margin-right: auto;
   }
   
   hr {

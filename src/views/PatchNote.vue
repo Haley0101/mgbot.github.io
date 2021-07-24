@@ -1,20 +1,21 @@
 <template>
     <div class="content" id="path_note">
         <section class="box1">
-            <div>
-                <img class="user-icon" src="img/logo.svg">
-                <a>개발자 이름</a>
-                <a>버전 표기</a>
+            <div class="path_note_header">
+
+                <div class="user_icon_border"><img class="user_icon" src="img/logo.svg"></div>
+
+                <a class="user_name">haley</a>
+                <a>v1.1</a>
             </div>
             <hr>
             <div>
-                <div>개발자 이름</div>
-                <div>버전 표기</div>
+                패치내용. 쏼라쏼라쏼라쏼라쏼라쏼라쏼라쏼라쏼라쏼라쏼라쏼라
             </div>
             <hr>
-            <div>
-                <img class="like" src="img/logo.svg">
-                <a>좋아요 0개</a>
+            <div class="path_note_footer">
+                <img class="like" src="img/heart1.svg">
+                <a class="like_count">0</a>
                 <a>2021.1.1</a>
             </div>
         </section>
