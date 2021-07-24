@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "b415faaf6c94ab312e267f3f3882e5e2",
+    "url": "/CNAME"
+  },
+  {
     "revision": "a1600d1a397fe63b426e895636f3f578",
     "url": "/css/dark/all.css"
   },
