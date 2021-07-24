@@ -1,7 +1,7 @@
 {
   "name": "mgbot",
   "version": "0.1.0",
-  "homepage": "https://happy-coding-team.github.io/mgbot.github.io/",
+  "homepage": "https://mgbot.happycoding.team/",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
