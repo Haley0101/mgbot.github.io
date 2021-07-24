@@ -1,12 +1,14 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </div>
+  </div> -->
+  <Header />
   <router-view/>
+  <Footer />
 </template>
 
-<style>
+<!-- <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,4 +29,25 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
-</style>
+</style> -->
+
+<script>
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+export default {
+  components: {
+    Header,
+    Footer
+  },
+  mounted () {
+      $("#darkBtn").on('click', function() {
+        ChangeFun()
+      })
+
+      $("#lightBtn").on('click', function() {
+        ChangeFun()
+      })
+  }
+}
+</script>

@@ -1,0 +1,59 @@
+/* 공통 다크모드 */
+
+html, body, input, textarea, select, button {
+    border-color: #736b5e !important;
+    color: #e8e6e3 !important;
+}
+
+html, body, input, textarea, select, button {
+    background-color: #181a1b !important;
+    /* background-color: #0b0c0c; */
+}
+
+::-webkit-scrollbar {
+    background-color: #202324 !important;
+    color: #aba499;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #181a1b !important;
+    /* background-color: #0b0c0c; */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d !important;
+}
+
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+footer {
+    background-color: rgb(11, 12, 13) !important;
+    color: rgb(232, 230, 227) !important;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 30px !important;
+}
+
+.logo4 {
+    color: rgb(232, 230, 227) !important;
+}
+
+.footer1 a {
+    color: rgb(232, 230, 227) !important;
+    text-decoration-color: initial !important;
+}
+
+.box1 {
+    background-color: #0d0d0e !important;
+    box-shadow: rgb(79 86 89 / 40%) 0px 0px 25px 0px !important;
+}
+
+/* 20210724 Dev 페이지 아이콘 픽스-SSKATE */
+.icon,
+.fab,
+.fas {
+  color: #ffffff;
+}
+
+/**/
