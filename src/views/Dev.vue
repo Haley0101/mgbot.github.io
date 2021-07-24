@@ -70,7 +70,7 @@
                     <img class="profile" src='https://happycoding.team/static/assets/img/members/AllPGS.png'>
                     <div class="info">
                         <h1>SSKATE</h1>
-<!--                        <a class="discord_username">SSKATE#</a>-->
+                        <a class="discord_username">SSKATE#9781</a>
                         <a href="https://github.com/kms0219kms"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
                         <a href="https://allpgs.kro.kr"><i class="fas fa-globe"></i><!--<img class="icon" src="img/globe.svg">--></a>
                     </div>

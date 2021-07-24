@@ -1,7 +1,6 @@
 <template>
             <div class="navbar2"></div>
             <header>
-
                 <div class="navbar1">
                     <div class="logo1">
                         <router-link to="/" class="logo2">
@@ -16,8 +15,8 @@
                         <router-link to="/dev">개발자</router-link>
                     </div>
                     <div class="RightMenu">
-                        <a id="darkBtn" href="#">Dark</a>
-                        <a id="lightBtn" href="#">Light</a>
+                        <a id="darkBtn" href="#"><img class="RightMenu" src="img/light_mode.svg"></a>
+                        <a id="lightBtn" href="#"><img class="RightMenu" src="img/dark_mode.svg"></a>
                     </div>
                 </div>
             </header>
