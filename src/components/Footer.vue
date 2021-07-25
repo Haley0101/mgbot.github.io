@@ -17,7 +17,7 @@
             </div>
             <div class="footer1">
                 <div class="footer-left">
-                    <a>Copyright ⓒ HCT All Rights Reserved</a>
+                    <a>Copyright ⓒ 2021 by HCT</a>
                 </div>
 
                 <div class="footer-right">

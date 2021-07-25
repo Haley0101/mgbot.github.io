@@ -1,11 +1,16 @@
 /* 배너 */
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .banner {
-    width: 100%;
+    width: 1080px;
     height: 100vh;
     overflow: hidden;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
   }
   
@@ -16,32 +21,27 @@
   #banner1 h1 {
     font-size: 70px;
     margin-top: 0px;
-    margin-bottom: 25px;
-    color: #ffffff;
-    text-shadow: 0px 0px 8px #050505;
+    margin-bottom: 10px;
+    color: #000000;
   }
   
   .banner_content {
     font-size: 20px;
-    color: #ffffff;
-    text-shadow: 0px 0px 8px #050505;
+    font-weight: 700;
+    color: #000000;
   }
 
   .banner_background {
-    position: absolute;
     overflow: hidden;
     width: 400px;
     height: 400px;
-    margin-left: 30vw;
-    border-radius: 10%;
+    border-radius: 20px;
     z-index: -1;
     box-shadow: 0px 0px 16px #000000;
   }
   
   .banner_background img {
-    position: absolute;
     height: 100%;
-    filter: brightness(2) contrast(80%);
   }
 
   .bot_invite {
@@ -52,20 +52,23 @@
     margin-top: 25px;
     text-shadow: 0px 0px 7px #000000;
     box-shadow: 0px 0px 7px #000000;
+    color: #ffffff;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
 
-  .bot_invite { animation-duration: 2s; animation-name: rainbowLink; animation-iteration-count: infinite; } 
+  .bot_invite { animation-duration: 3s; animation-name: rainbowLink; animation-iteration-count: infinite; } 
   @keyframes rainbowLink {     
   0% { background-color: #ff2a2a; }
-  15% { background-color: #ff7a2a; }
-  30% { background-color: #ffc52a; }
-  45% { background-color: #43ff2a; }
-  60% { background-color: #2acdff; }
-  75% { background-color: #292cff; }
-  90% { background-color: #6b2aff; } 
-  100% { background-color: #ff2adc; }
+  12.5% { background-color: #ff7a2a; }
+  25% { background-color: #ffc52a; }
+  37.5% { background-color: #43ff2a; }
+  50% { background-color: #2acdff; }
+  69.5% { background-color: #292cff; }
+  75% { background-color: #6b2aff; } 
+  87.5% { background-color: #ff2adc; }
+  100% { background-color: #ff2a2a; }
   }

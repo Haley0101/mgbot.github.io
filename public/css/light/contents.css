@@ -75,7 +75,7 @@
   }
   
   .info {
-    padding: 10px 20px 0px 130px;
+    padding: 10px 20px 0px 140px;
     display: flex;
     position: relative;
     align-items: center;
@@ -83,9 +83,7 @@
   }
 
   .info i {
-    padding-left: 5px;
-    width: 40px;
-    height: 40px
+    padding-left: 8px;
   }
   
   .icon,
@@ -97,14 +95,14 @@
 
   .name {
     font-family: "Cafe24SsurroundAir";
-    font-size: 25px;
-    padding: 0px 5px 0px 0px;
+    font-size: 22px;
+    padding: 0px 7px 0px 0px;
     margin: 0px;
   }
   
   .discord_username {
     color: #5865F2;
-    font-size: 13px !important;
+    font-size: 11px !important;
     margin-right: auto;
   }
 
