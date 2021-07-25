@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/dark/all.css"
   },
   {
-    "revision": "500179b1b8dc705c0dec823ab03a77c2",
+    "revision": "63211b1661dd81408831b25e3aeadb42",
     "url": "/css/light/banner.css"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/common.css"
   },
   {
-    "revision": "2c01161f20f1692fb5a3f07617898d88",
+    "revision": "769213023b5d09b95e6e04649d085c74",
     "url": "/css/light/contents.css"
   },
   {
@@ -92,24 +92,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/user.png"
   },
   {
-    "revision": "41c1a6c28e2c1d0ff1454a363b9bf0b2",
+    "revision": "63faec2b614140a0db27fecf7f2762c0",
     "url": "/index.html"
   },
   {
-    "revision": "d011f962d001a5febf4c",
-    "url": "/js/Dev.f2868ec7.js"
+    "revision": "f49f4945b38a5a326a96",
+    "url": "/js/Dev.8057163e.js"
   },
   {
-    "revision": "6acb6bee807461e4efdc",
-    "url": "/js/Help.0b239fb6.js"
+    "revision": "a1774c05be7ca25a691c",
+    "url": "/js/Help.93ff1e6c.js"
   },
   {
-    "revision": "0db1d47c0532aebd906b",
-    "url": "/js/PatchNote.0cfa082d.js"
+    "revision": "85367df21b3129bb6dd6",
+    "url": "/js/PatchNote.9e671ae8.js"
   },
   {
-    "revision": "fba264bdd542818494c8",
-    "url": "/js/app.2b8eeeb2.js"
+    "revision": "54a10f3bd1a53c6d7836",
+    "url": "/js/app.56cc8bcf.js"
   },
   {
     "revision": "14eba397d598e993b218",
