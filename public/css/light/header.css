@@ -51,6 +51,7 @@ header {
     display: flex;
     align-items: center;
     margin-right: 60px;
+    z-index: 2;
   }
   
   .logo2 {
@@ -103,4 +104,9 @@ header {
     margin-left: 60px;
     height: 30px;
     filter: drop-shadow(0px 0px 10px #000000);
+  }
+
+  .RightMenu img {
+    margin-left: 0px;
+    z-index: 2;
   }
