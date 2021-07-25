@@ -2,7 +2,7 @@
     <div class="content" id="path_note">
         <section class="box1">
             <div class="path_note_header">
-                <div class="user_icon_border"><img class="user_icon" src="img/logo.svg"></div>
+                <div class="user_icon_border"><img class="user_icon" src="https://happycoding.team/static/assets/img/members/Haley.png"></div>
                 <a class="user_name">haley</a>
                 <a class="version">v1.1</a>
             </div>
