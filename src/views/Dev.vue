@@ -8,11 +8,13 @@
                     </div>
 
                     <div class="profile1">
-                        <img class="profile2" src='https://happycoding.team/static/assets/img/members/Haley.png'>    
+                        <div class="profile2">
+                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/Haley.png'>    
+                        </div>
                     </div>
 
                     <div class="info">
-                        <h1>할리</h1>
+                        <h1 class="name">할리</h1>
                         <a class="discord_username">할리#0302</a>
                         <a href="https://github.com/Haley0101"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
                     </div>
@@ -29,11 +31,13 @@
                     </div>
 
                     <div class="profile1">
-                        <img class="profile2" src='https://happycoding.team/static/assets/img/members/ugi.png'>
+                        <div class="profile2">
+                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/ugi.png'>
+                        </div>
                     </div>
 
                     <div class="info">
-                        <h1>우기</h1>
+                        <h1 class="name">우기</h1>
                         <a class="discord_username">우기#0050</a>
                         <a href="https://github.com/WooGy-U"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
                     </div>
@@ -50,11 +54,13 @@
                     </div>
 
                     <div class="profile1">
-                        <img class="profile2" src='https://happycoding.team/static/assets/img/members/junyeong.gif'>
+                        <div class="profile2">
+                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/junyeong.gif'>
+                        </div>
                     </div>
 
                     <div class="info">
-                        <h1>준영</h1>
+                        <h1 class="name">준영</h1>
                         <a class="discord_username">준영#7040</a>
                     </div>
 
@@ -71,11 +77,13 @@
                     </div>
 
                     <div class="profile1">
-                        <img class="profile2" src='https://happycoding.team/static/assets/img/members/lavi.png'>
+                        <div class="profile2">
+                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/lavi.png'>
+                        </div>
                     </div>
 
                     <div class="info">
-                        <h1>라비</h1>
+                        <h1 class="name">라비</h1>
                         <a class="discord_username">라비#2253</a>
                         <a href="https://github.com/lavi27"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
                         <a href="https://lavi27.kro.kr"><i class="fas fa-globe"></i><!--<img class="icon" src="img/globe.svg">--></a>
@@ -93,11 +101,13 @@
                     </div>
 
                     <div class="profile1">
-                        <img class="profile2" src='https://happycoding.team/static/assets/img/members/AllPGS.png'>
+                        <div class="profile2">
+                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/AllPGS.png'>
+                        </div>
                     </div>
 
                     <div class="info">
-                        <h1>SSKATE</h1>
+                        <h1 class="name">SSKATE</h1>
                         <a class="discord_username">SSKATE#9781</a>
                         <a href="https://github.com/kms0219kms"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
                         <a href="https://allpgs.kro.kr"><i class="fas fa-globe"></i><!--<img class="icon" src="img/globe.svg">--></a>

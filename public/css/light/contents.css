@@ -47,19 +47,28 @@
     z-index: -2;
     overflow: hidden;
   }
-  
+
+  .profile1 {
+    position: absolute;
+  }
+
   .profile2 {
     z-index: 1;
     border-radius: 50%;
     width: 100px;
+    height: 100px;
     bottom: 50px;
     left: 20px;
+    border: 4px solid #000000;
     filter: drop-shadow(0px 0px 10px #000000);
+    border-left: #000000;
     position: relative;
+    overflow: hidden;
+    background-color: #000000;
   }
 
-  .profile1 {
-    position: absolute;
+  .profile3 {
+    width: 100px;
   }
   
   .info {
@@ -70,22 +79,18 @@
     justify-content: center;
   }
   
-  .box1 h1 {
-    font-family: "Cafe24SsurroundAir";
-    font-size: 25px;
-    padding: 0px 4px;
-    margin: 0px;
-  }
-  
-  .box1 a {
-    padding: 0px 4px;
-  }
-  
   .icon,
   .fab,
   .fas {
     width: 15px;
     color: #000000;
+  }
+
+  .name {
+    font-family: "Cafe24SsurroundAir";
+    font-size: 25px;
+    padding: 0px 5px 0px 0px;
+    margin: 0px;
   }
   
   .discord_username {
@@ -96,36 +101,62 @@
 
   .path_note_header {
     display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    height: 30px;
+  }
+
+  .path_note_header a {
+    padding: 0px;
+  }
+
+  .path_note_content {
+    padding: 15px 15px;
   }
 
   .path_note_footer {
+    height: 30px;
     display: flex;
+    align-items: center;
+    padding: 5px 15px;
   }
   
   .like {
-    width: 10px;
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
   }
   .like_count {
     margin-right: auto;
+    padding: 0px;
   }
 
   .user_icon {
-    width: 20px;
-    height: 20px;
+    width: 80%;
   }
 
   .user_icon_border {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    border: 4px solid #000000;
+    margin-right: 10px;
+    background-color: #000000;
+    display: flex;
+    position: relative;
+    justify-content: center;
   }
 
   .user_name {
     margin-right: auto;
+    font-size: 15px;
+  }
+
+  .version {
+    font-size: 15px;
   }
   
   hr {
+    margin: 0px;
     color: #ffffff;
     border-color: #ffffff;
   }
