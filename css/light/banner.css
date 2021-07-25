@@ -14,23 +14,27 @@
   }
   
   #banner1 h1 {
-    font-size: 90px;
+    font-size: 70px;
     margin-bottom: 25px;
     color: #000000;
   }
   
-  #banner1 div {
-    display: flex;
-    align-items: center;
-  }
-  
-  #banner1 div a {
+  .banner_content {
     font-size: 20px;
     margin-right: 10px;
     color: #000000;
   }
+
+  .banner_background {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    z-index: -1;
+    overflow: hidden;
+  }
   
-  #banner1 img {
-    position: relative;
-    width: 80px;
+  .banner_background img {
+    position: absolute;
+    height: 100%;
   }

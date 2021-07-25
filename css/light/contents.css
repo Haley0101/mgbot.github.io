@@ -18,6 +18,7 @@
   }
 
   .back_ground img {
+    z-index: 1;
     width: 100%;
     overflow: hidden;
   }
@@ -43,10 +44,12 @@
     box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
     text-align: center;
     width: 400px;
+    z-index: -2;
     overflow: hidden;
   }
   
   .profile2 {
+    z-index: 1;
     border-radius: 50%;
     width: 100px;
     bottom: 50px;
