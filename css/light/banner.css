@@ -15,21 +15,22 @@
   
   #banner1 h1 {
     font-size: 70px;
+    margin-top: 0px;
     margin-bottom: 25px;
     color: #000000;
   }
   
   .banner_content {
     font-size: 20px;
-    margin-right: 10px;
     color: #000000;
   }
 
   .banner_background {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    margin-left: 30vw;
+    border-radius: 10%;
     z-index: -1;
     overflow: hidden;
   }
@@ -37,4 +38,6 @@
   .banner_background img {
     position: absolute;
     height: 100%;
+    filter: contrast(180%);
+    filter: brightness(3);
   }
