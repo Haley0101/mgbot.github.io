@@ -7,15 +7,25 @@
 
 .banner {
     width: 1080px;
-    height: 100vh;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
   #banner1 {
-    color: #ffffff;
+    height: 100vh;
+  }
+
+  #banner2 {
+    height: 100vh;
+  }
+
+  #banner3 {
+    height: 40vh;
+  }
+
+  #banner4 {
+    height: 100vh;
   }
   
   #banner1 h1 {

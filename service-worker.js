@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.27907a0937592500ee40eca16bc5f0c4.js"
+  "/precache-manifest.224b280eda4014a16d61b4f93be760a9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "mgbot"});
