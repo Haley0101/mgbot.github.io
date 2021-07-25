@@ -2,11 +2,34 @@
 .content {
     padding: 110px 100px 100px 100px;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
   
+  .back_ground {
+    height: 130px;
+    overflow: hidden;
+    display: flex;
+    background-color: #333333;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .back_ground img {
+    width: 100%;
+    overflow: hidden;
+  }
+
   .dev {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
+  }
+
+  .description {
+    padding: 30px 20px 30px 20px;
   }
   
   #path_note {
@@ -19,29 +42,34 @@
     border-radius: 10px;
     box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
     text-align: center;
-    width: 700px;
+    width: 400px;
+    overflow: hidden;
   }
   
-  .content_inner {
-    padding: 20px;
+  .profile2 {
+    border-radius: 50%;
+    width: 100px;
+    bottom: 50px;
+    left: 20px;
+    filter: drop-shadow(0px 0px 10px #000000);
+    position: relative;
   }
-  
-  .profile{
-    border-radius: 30px;
-    width: 200px;
+
+  .profile1 {
+    position: absolute;
   }
   
   .info {
-    padding-top: 20px;
+    padding: 10px 20px 0px 130px;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
   }
   
   .box1 h1 {
     font-family: "Cafe24SsurroundAir";
-    font-size: 23px;
-    line-height: 2;
+    font-size: 25px;
     padding: 0px 4px;
     margin: 0px;
   }
@@ -60,10 +88,38 @@
   .discord_username {
     color: #5865F2;
     font-size: 13px !important;
+    margin-right: auto;
+  }
+
+  .path_note_header {
+    display: flex;
+  }
+
+  .path_note_footer {
+    display: flex;
   }
   
   .like {
     width: 10px;
+  }
+  .like_count {
+    margin-right: auto;
+  }
+
+  .user_icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .user_icon_border {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid #000000;
+  }
+
+  .user_name {
+    margin-right: auto;
   }
   
   hr {
