@@ -9,18 +9,32 @@
     </div>
 
     <div class="banner" id="banner2">
-        <h1>기능어필</h1>
+        <div class="minigame_title">
+            <h1>미니게임</h1>
+            <a>다양하고 재미있는 미니게임을 제공합니다</a>
+        </div>
+        <div class="minigames">
+            <div>efewrf</div>
+            <div>ffewewf</div>
+            <div>eewfewf</div>
+            <div>wefewf</div>
+            <div>efeqwf</div>
+            <div>eqwfqfewfq</div>
+        </div>
     </div>
+
     <div class="banner" id="banner3">
         <h1>MG봇을 사용중인 서버 수</h1>
         <div>
             <a class="typing">45328754327890543</a>
         </div>
     </div>
+
     <div class="banner" id="banner4">
         <h1>봇 초대해ㅐㅐㅐㅐㅐㅐㅐㅐ</h1>
         <a class="bot_invite" href="https://discord.com/oauth2/authorize?client_id=856090100458979379&permissions=8&scope=bot">봇 초대하기</a>
     </div>
+
     <div class="banner" id="banner5">
         <h1>서포트서버</h1>
     </div>
