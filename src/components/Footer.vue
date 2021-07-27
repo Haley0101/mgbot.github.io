@@ -23,7 +23,7 @@
                 <div class="footer-right">
                     <a href="https://github.com/Happy-Coding-Team">깃허브</a>
                     <a href="https://discord.gg/rRRwEYy8w8">디스코드</a>
-                    <a href="https://happy-coding.xyz/">팀사이트</a>
+                    <a href="https://happycoding.team/">팀사이트</a>
                 </div>
             </div>
         </div>
