@@ -18,6 +18,9 @@
 
   #banner2 {
     height: 100vh;
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   #banner3 {
@@ -46,6 +49,10 @@
     margin-top: 0px;
     margin-bottom: 30px;
     color: #000000;
+  }
+
+  #banner2 .banner_inner {
+    flex-direction: column !important;
   }
 
   .banner_inner {
@@ -113,10 +120,11 @@
   }
   
   .minigame_title {
+    width: 100%;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 120px 20px 40px 20px;
   }
 
   .minigame_title a {
@@ -128,7 +136,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
     row-gap: 30px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
   }
 
   .minigames div {
