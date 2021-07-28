@@ -16,6 +16,7 @@ export default {
     Footer,
     TopButton
   },
+  
   mounted () {
       $("#darkBtn").on('click', function() {
         ChangeFun()

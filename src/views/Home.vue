@@ -55,7 +55,7 @@
 
     <div class="banner" id="banner3">
         <h1>MG봇을 사용중인 서버 수</h1>
-        <a class="rolling">0</a>
+        <a class="rolling">{{bot_invited}}</a>
     </div>
 
     <div class="banner" id="banner4">
@@ -71,3 +71,25 @@
     </div>
   </div>
 </template>
+
+<script>
+    import axios from 'axios';
+
+    export default {
+        data() {
+            return {
+                bot_invited : 0
+            };
+        },
+
+        methods: {
+            getinvitedserver() {
+                const BASE_URL = ""
+                this.$http.get('${BASE_URL}')
+                .then((result) => {
+                    this.bot_invited = result.data
+                })
+            }
+        }
+    }
+</script>
