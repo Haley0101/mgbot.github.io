@@ -79,7 +79,6 @@
     width: 600px;
     height: 400px;
     border-radius: 20px;
-    z-index: -1;
     background-color: #373940;
     box-shadow: 0px 0px 30px -4px #000000;
   }
