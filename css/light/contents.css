@@ -45,7 +45,6 @@
     box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
     text-align: center;
     width: 400px;
-    z-index: -2;
     overflow: hidden;
   }
 

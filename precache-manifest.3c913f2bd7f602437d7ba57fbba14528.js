@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/dark/all.css"
   },
   {
-    "revision": "6a9028091dc96c41aab82e20547e23d5",
+    "revision": "2657a919b156964b410a16aebe3815fc",
     "url": "/css/light/banner.css"
   },
   {
-    "revision": "0fb0c4fbc907969a34665e8d1ce03411",
+    "revision": "0553b5b6bde60e06927090758c85af09",
     "url": "/css/light/common.css"
   },
   {
-    "revision": "cd2be7705d525afc3bd199928be681a7",
+    "revision": "8bd50942b3f492bd32ca2869e75b371a",
     "url": "/css/light/contents.css"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/footer.css"
   },
   {
-    "revision": "74dcf4c75b1c8677823195fe20f2f394",
+    "revision": "b2e31acda69b5baaeffac8dc97aec094",
     "url": "/css/light/header.css"
   },
   {
