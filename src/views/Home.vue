@@ -76,18 +76,32 @@
     import axios from 'axios';
 
     export default {
+        mounted() {
+            this.get_bot_invited()
+        },
+
         data() {
             return {
-                bot_invited : 0
+                bot_invited: "ㅤ"
             };
         },
 
         methods: {
-            getinvitedserver() {
-                const BASE_URL = ""
-                this.$http.get('${BASE_URL}')
-                .then((result) => {
-                    this.bot_invited = result.data
+            get_bot_invited() {
+                axios({
+                    method:'post',
+                    url:'http://localhost:5000/api',
+                    responseType:'stream'
+                })
+
+                .then((response) => {
+                    this.bot_invited = response.data.guilds
+                })
+
+                .catch((error) => {
+                    this.bot_invited = "0"
+                    alert("서버 수를 불러오는데 문제가 발생했습니다.")
+                    console.error(error)
                 })
             }
         }
