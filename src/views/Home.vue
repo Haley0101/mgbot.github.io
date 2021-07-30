@@ -90,7 +90,7 @@
             get_bot_invited() {
                 axios({
                     method:'post',
-                    url:'http://localhost:5000/api',
+                    url:'http://125.184.79.22:5000/api',
                     responseType:'stream'
                 })
 
