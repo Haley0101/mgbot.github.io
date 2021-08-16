@@ -8,7 +8,6 @@
   </head>
   <Header />
   <router-view/>
-  <TopButton />
   <Footer />
 </template>
 

@@ -4,20 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
     <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
     <title>미니게임 봇</title>
+
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
     <link rel='stylesheet' href='<%= BASE_URL %>css/light/main.css' id='lightcss'>
     <link rel='stylesheet' href='' id='darkcss'>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
       function ChangeFun() {
           $( "#darkBtn" ).hide();
