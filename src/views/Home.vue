@@ -24,32 +24,26 @@
                 </div>
                 <div class="minigames">
                     <div>
-                        <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
                         <a></a>
                     </div>
                     <div>
-                        <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
                         <a></a>
                     </div>
                     <div>
-                        <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
                         <a></a>
                     </div>
                     <div>
-                        <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
                         <a></a>
                     </div>
                     <div>
-                        <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
                         <a></a>
                     </div>
                     <div>
-                        <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
                         <a></a>
                     </div>
@@ -78,7 +72,7 @@
     </div>
 </template>
 
-<style scoped src="../../public/css/rollingNumber.css"></style>
+<style src="../../public/css/rollingNumber.css"></style>
 
 <script>
 // import axios from 'axios';
