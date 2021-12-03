@@ -8,23 +8,25 @@ footer {
   }
   
   .footer3 {
-    padding: 30px 0px;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
   
   @media all and (min-width: 1520px) { 
     .footer3 {
-      width: 1280px;
+      width: 1000px;
     }
   }
   
   @media all and (max-width: 1520px) { 
     .footer3 {
-      width: 85vw;
+      width: 1000px;
     }
   }
   
   .footer1 {
-    padding-bottom: 30px;
     display: flex;
   }
   
@@ -40,8 +42,9 @@ footer {
   }
   
   .logo4 {
-    height: 40px;
-    padding-right: 20px;
+    height: 35px;
+    padding-right: 10px;
+    opacity: 0.5;
   }
   
   .footer-left {
