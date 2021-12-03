@@ -91,24 +91,10 @@ footer {
     color: #ffffff !important;
 }
 
-#banner3 a {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-}
-
-#banner4 h1 {
-    color: #ffffff;
-}
-
-#banner5 h1 {
-    color: #ffffff;
-}
-
 /* 20210724 Dev 페이지 아이콘 픽스-SSKATE */
 .icon,
 .fab,
 .fas {
-  color: #ffffff;
+    color: #ffffff;
 }
-
 /**/

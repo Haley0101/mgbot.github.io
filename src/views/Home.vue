@@ -20,38 +20,38 @@
             <div class="banner_inner">
                 <div class="minigame_title">
                     <h1>미니게임</h1>
-                    <a>다양하고 재미있는 미니게임을 제공합니다</a>
+                    <a>다양하고 재미있는 미니게임을 제공합니다.</a>
                 </div>
                 <div class="minigames">
                     <div>
                         <img src="../../public/img/games/1.png" class="sect_bg">
-                        <h3>이름미정</h3>
-                        <a>무기와 갑옷을 강화하는 던전 미니게임</a>
+                        <h3>제작중입니다</h3>
+                        <a></a>
                     </div>
                     <div>
                         <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
-                        <a>제작중입니다</a>
+                        <a></a>
                     </div>
                     <div>
                         <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
-                        <a>제작중입니다</a>
+                        <a></a>
                     </div>
                     <div>
                         <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
-                        <a>제작중입니다</a>
+                        <a></a>
                     </div>
                     <div>
                         <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
-                        <a>제작중입니다</a>
+                        <a></a>
                     </div>
                     <div>
                         <img src="../../public/img/games/1.png" class="sect_bg">
                         <h3>제작중입니다</h3>
-                        <a>제작중입니다</a>
+                        <a></a>
                     </div>
                 </div>
             </div>
@@ -59,29 +59,37 @@
 
         <div class="section" id="banner3">
             <div class="banner_inner">
-                <h1>MG봇을 사용중인 서버 수</h1>
-                <a class="rolling">{{bot_invited}}</a>
+                <div>
+                    <h1>MG봇을 사용중인 서버 수</h1>
+                    <a class="rolling drag_none" id="roll_1"></a>
+                </div>
 
-                <h1>다양한 미니게임을 즐기기 위해<br>
-                봇을 초대해보세요.</h1>
-                <a class="button" href="https://discord.com/oauth2/authorize?client_id=856090100458979379&permissions=8&scope=bot">봇 초대하기</a>
+                <div>
+                    <h1>다양한 미니게임을 즐기기 위해<br>봇을 초대해보세요.</h1>
+                    <a class="button" href="https://discord.com/oauth2/authorize?client_id=856090100458979379&permissions=8&scope=bot">봇 초대하기</a>
+                </div>
 
-                <h1>오류가 발생하거나 건의사항 문의시,<br>
-                서포트서버에서 연락주시기 바랍니다.</h1>
-                <a class="button" href="">서포트서버</a>
+                <div>
+                    <h1>오류가 발생하거나 건의사항 문의시,<br>서포트서버에서 연락주시기 바랍니다.</h1>
+                    <a class="button" href="">서포트서버</a>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
+<style scoped src="../../public/css/rollingNumber.css"></style>
+
 <script>
 // import axios from 'axios';
+import rollingNumber from '../../public/js/rollingNumber.js';
 
-// export default {
+export default {
+    name: 'App',
+    components: { rollingNumber }
 //     mounted() {
 //         this.get_bot_invited()
 //     },
-
 //     data() {
 //         return {
 //             bot_invited: "ㅤ"
@@ -107,5 +115,5 @@
 //             })
 //         }
 //     }
-// }
+}
 </script>
