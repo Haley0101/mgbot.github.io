@@ -55,8 +55,8 @@
             <div class="banner_inner">
                 <div>
                     <h1>MG봇을 사용중인 서버 수</h1>
-                    <a class="roll drag_none" id="roll_1">{{bot_invited}}</a>
-                    <!-- <a></a> -->
+                    <a class="roll drag_none" id="roll_1"></a>
+                    <a>{{bot_invited}}</a>
                 </div>
 
                 <div>
@@ -77,9 +77,7 @@
 import axios from 'axios';
 //import rollingNumber from '../../public/js/rollingNumber.js';
 import fullpage from '../../public/js/fullpage.js';
-
 new fullpage('#fullpage', {});
-
 export default {
     name: 'App',
     //components: { rollingNumber },
@@ -92,7 +90,6 @@ export default {
             bot_invited: "0"
         };
     },
-
     methods: {
         get_bot_invited() {
             /*axios({
@@ -100,17 +97,34 @@ export default {
                 url:'http://125.184.79.22:5000/api',
                 responseType:'stream'
             })
-
             .then((response) => {
                 this.bot_invited = response.data.guilds
             })
-
             .catch((error) => {
                 this.bot_invited = "0"
                 alert("서버 수를 불러오는데 문제가 발생했습니다.")
                 console.error(error)
             })*/
             this.bot_invited = "9"
+            
+            // Use requestAnimationFrame with setTimeout fallback
+            window.requestAnimFrame = (function () {
+              return  window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                window.oRequestAnimationFrame ||
+                window.msRequestAnimationFrame ||
+                function (callback) {
+                  window.setTimeout(callback, 500);
+                };
+            })();
+            var percentEl = document.querySelector('#roll_1');
+            var max = this.bot_invited;
+            (function animloop() {
+              if (percentEl.innerHTML >= max) { return; } //Stop recursive when max reach
+              requestAnimFrame(animloop); 
+              percentEl.innerHTML++;
+            })();
         }
     }
 }
