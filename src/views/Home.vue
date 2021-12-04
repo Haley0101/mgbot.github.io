@@ -56,47 +56,6 @@
                 <div>
                     <h1>MG봇을 사용중인 서버 수</h1>
                     <a class="roll drag_none" id="roll_1"></a>
-                    <a class="roll drag_none" style="display: none !important;">1</a>
-                    <a class="roll drag_none" style="display: none !important;">2</a>
-                    <a class="roll drag_none" style="display: none !important;">3</a>
-                    <a class="roll drag_none" style="display: none !important;">4</a>
-                    <a class="roll drag_none" style="display: none !important;">5</a>
-                    <a class="roll drag_none" style="display: none !important;">6</a>
-                    <a class="roll drag_none" style="display: none !important;">7</a>
-                    <a class="roll drag_none" style="display: none !important;">8</a>
-                    <a class="roll drag_none" style="display: none !important;">9</a>
-                    <a class="roll drag_none" style="display: none !important;">10</a>
-                    <a class="roll drag_none" style="display: none !important;">11</a>
-                    <a class="roll drag_none" style="display: none !important;">12</a>
-                    <a class="roll drag_none" style="display: none !important;">13</a>
-                    <a class="roll drag_none" style="display: none !important;">14</a>
-                    <a class="roll drag_none" style="display: none !important;">15</a>
-                    <a class="roll drag_none" style="display: none !important;">16</a>
-                    <a class="roll drag_none" style="display: none !important;">17</a>
-                    <a class="roll drag_none" style="display: none !important;">18</a>
-                    <a class="roll drag_none" style="display: none !important;">19</a>
-                    <a class="roll drag_none" style="display: none !important;">20</a>
-                    <a class="roll drag_none" style="display: none !important;">21</a>
-                    <a class="roll drag_none" style="display: none !important;">22</a>
-                    <a class="roll drag_none" style="display: none !important;">23</a>
-                    <a class="roll drag_none" style="display: none !important;">24</a>
-                    <a class="roll drag_none" style="display: none !important;">25</a>
-                    <a class="roll drag_none" style="display: none !important;">26</a>
-                    <a class="roll drag_none" style="display: none !important;">27</a>
-                    <a class="roll drag_none" style="display: none !important;">28</a>
-                    <a class="roll drag_none" style="display: none !important;">29</a>
-                    <a class="roll drag_none" style="display: none !important;">30</a>
-                    <a class="roll drag_none" style="display: none !important;">31</a>
-                    <a class="roll drag_none" style="display: none !important;">32</a>
-                    <a class="roll drag_none" style="display: none !important;">33</a>
-                    <a class="roll drag_none" style="display: none !important;">34</a>
-                    <a class="roll drag_none" style="display: none !important;">35</a>
-                    <a class="roll drag_none" style="display: none !important;">36</a>
-                    <a class="roll drag_none" style="display: none !important;">37</a>
-                    <a class="roll drag_none" style="display: none !important;">38</a>
-                    <a class="roll drag_none" style="display: none !important;">39</a>
-                    <a class="roll drag_none" style="display: none !important;">40</a>
-                    <a>{{bot_invited}}</a>
                 </div>
 
                 <div>
@@ -120,7 +79,7 @@ export default {
     name: 'App',
     //components: { rollingNumber },
     
-    mounted() {
+    componentsReady() {
         this.get_bot_invited()
     },
     data() {
