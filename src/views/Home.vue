@@ -75,21 +75,21 @@
 
 <script>
 import axios from 'axios';
-import rollingNumber from '../../public/js/rollingNumber.js';
+//import rollingNumber from '../../public/js/rollingNumber.js';
 import fullpage from '../../public/js/fullpage.js';
 
 new fullpage('#fullpage', {});
 
 export default {
     name: 'App',
-    components: { rollingNumber },
+    //components: { rollingNumber },
     
     mounted() {
         this.get_bot_invited()
     },
     data() {
         return {
-            bot_invited: "123"
+            bot_invited: "0"
         };
     },
 
@@ -111,6 +111,27 @@ export default {
                 console.error(error)
             })*/
             this.bot_invited = "9"
+            
+            // Use requestAnimationFrame with setTimeout fallback
+            window.requestAnimFrame = (function () {
+              return  window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                window.oRequestAnimationFrame ||
+                window.msRequestAnimationFrame ||
+                function (callback) {
+                  window.setTimeout(callback, 1000 / 60);
+                };
+            })();
+
+            var percentEl = document.querySelector('.percent');
+            var max = this.bot_invited;
+
+            (function animloop() {
+              if (percentEl.innerHTML >= max) { return; } //Stop recursive when max reach
+              requestAnimFrame(animloop); 
+              percentEl.innerHTML++;
+            })();
         }
     }
 }
