@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.svg"
   },
   {
-    "revision": "a922a86ffa0e380166fc0c154cae9258",
+    "revision": "3e02e279c60027124988a483b64fbd7b",
     "url": "/index.html"
   },
   {
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.ada1582d.js"
   },
   {
-    "revision": "dcb298a4a68876f626fa",
-    "url": "/js/app.0cbc0cb1.js"
+    "revision": "238ff43a15443069977b",
+    "url": "/js/app.492e8958.js"
   },
   {
     "revision": "d6e827c5dcc4bb7109e9",
