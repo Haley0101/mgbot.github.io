@@ -1,5 +1,5 @@
 <template>
-    <div class="home" id="fullpage">
+    <div id="fullpage" class="home">
         <div class="section" id="banner1">
             <div class="banner_inner">
                 <div class="left_content">
@@ -55,7 +55,8 @@
             <div class="banner_inner">
                 <div>
                     <h1>MG봇을 사용중인 서버 수</h1>
-                    <a class="rolling drag_none" id="roll_1"></a>
+                    <a class="roll drag_none" id="roll_1"></a>
+                    <a>{{bot_invited}}</a>
                 </div>
 
                 <div>
@@ -72,42 +73,44 @@
     </div>
 </template>
 
-<style src="../../public/css/rollingNumber.css"></style>
-
 <script>
-// import axios from 'axios';
+import axios from 'axios';
 import rollingNumber from '../../public/js/rollingNumber.js';
+import fullpage from '../../public/js/fullpage.js';
+
+new fullpage('#fullpage', {});
 
 export default {
     name: 'App',
-    components: { rollingNumber }
-//     mounted() {
-//         this.get_bot_invited()
-//     },
-//     data() {
-//         return {
-//             bot_invited: "ㅤ"
-//         };
-//     },
+    components: { rollingNumber },
+    
+    mounted() {
+        this.get_bot_invited()
+    },
+    data() {
+        return {
+            bot_invited: "123"
+        };
+    },
 
-//     methods: {
-//         get_bot_invited() {
-//             axios({
-//                 method:'post',
-//                 url:'http://125.184.79.22:5000/api',
-//                 responseType:'stream'
-//             })
+    methods: {
+        get_bot_invited() {
+            axios({
+                method:'post',
+                url:'http://125.184.79.22:5000/api',
+                responseType:'stream'
+            })
 
-//             .then((response) => {
-//                 this.bot_invited = response.data.guilds
-//             })
+            .then((response) => {
+                this.bot_invited = response.data.guilds
+            })
 
-//             .catch((error) => {
-//                 this.bot_invited = "0"
-//                 alert("서버 수를 불러오는데 문제가 발생했습니다.")
-//                 console.error(error)
-//             })
-//         }
-//     }
+            .catch((error) => {
+                this.bot_invited = "0"
+                alert("서버 수를 불러오는데 문제가 발생했습니다.")
+                console.error(error)
+            })
+        }
+    }
 }
 </script>
