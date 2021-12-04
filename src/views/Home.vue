@@ -79,7 +79,7 @@ export default {
     name: 'App',
     //components: { rollingNumber },
     
-    componentsReady() {
+    mounted() {
         this.get_bot_invited()
     },
     data() {
