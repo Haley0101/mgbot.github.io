@@ -55,8 +55,8 @@
             <div class="banner_inner">
                 <div>
                     <h1>MG봇을 사용중인 서버 수</h1>
-                    <a class="roll drag_none" id="roll_1"></a>
-                    <a>{{bot_invited}}</a>
+                    <a class="roll drag_none" id="roll_1">{{bot_invited}}</a>
+                    <!-- <a></a> -->
                 </div>
 
                 <div>
@@ -111,27 +111,6 @@ export default {
                 console.error(error)
             })*/
             this.bot_invited = "9"
-            
-            // Use requestAnimationFrame with setTimeout fallback
-            window.requestAnimFrame = (function () {
-              return  window.requestAnimationFrame ||
-                window.webkitRequestAnimationFrame ||
-                window.mozRequestAnimationFrame ||
-                window.oRequestAnimationFrame ||
-                window.msRequestAnimationFrame ||
-                function (callback) {
-                  window.setTimeout(callback, 1000 / 60);
-                };
-            })();
-
-            var percentEl = document.querySelector('#roll_1');
-            var max = this.bot_invited;
-
-            (function animloop() {
-              if (percentEl.innerHTML >= max) { return; } //Stop recursive when max reach
-              requestAnimFrame(animloop); 
-              percentEl.innerHTML++;
-            })();
         }
     }
 }
