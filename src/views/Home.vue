@@ -76,8 +76,6 @@
 <script>
 import axios from 'axios';
 //import rollingNumber from '../../public/js/rollingNumber.js';
-import fullpage from '../../public/js/fullpage.js';
-new fullpage('#fullpage', {});
 export default {
     name: 'App',
     //components: { rollingNumber },
