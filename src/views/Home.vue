@@ -124,7 +124,7 @@ export default {
                 };
             })();
 
-            var percentEl = document.querySelector('.percent');
+            var percentEl = document.querySelector('#roll_1');
             var max = this.bot_invited;
 
             (function animloop() {
