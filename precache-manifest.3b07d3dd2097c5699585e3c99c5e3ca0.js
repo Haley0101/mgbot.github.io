@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.svg"
   },
   {
-    "revision": "439bd42b29cf694106bcff46cb2c2a14",
+    "revision": "2e1e904a364202f5351abef4a970fde0",
     "url": "/index.html"
   },
   {
@@ -100,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.ada1582d.js"
   },
   {
-    "revision": "1ba93be587a5a9097e0e",
-    "url": "/js/app.a60a209b.js"
+    "revision": "ae7489c7266dc419d0d6",
+    "url": "/js/app.db5f9044.js"
   },
   {
-    "revision": "d6e827c5dcc4bb7109e9",
-    "url": "/js/chunk-vendors.8254d502.js"
+    "revision": "799ec5060b3a9a86c070",
+    "url": "/js/chunk-vendors.69a14848.js"
   },
   {
     "revision": "8bec0cc5bf441dbd443ca0cc9d3109cb",
