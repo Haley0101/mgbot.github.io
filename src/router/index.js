@@ -9,6 +9,11 @@ const routes = [
     component: Home
   },
   {
+    path: '!/test',
+    name: 'Test',
+    component: Home
+  },
+  {
     path: '/path_note',
     name: 'PatchNote',
     // route level code-splitting
