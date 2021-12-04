@@ -95,7 +95,7 @@ export default {
 
     methods: {
         get_bot_invited() {
-            axios({
+            /*axios({
                 method:'post',
                 url:'http://125.184.79.22:5000/api',
                 responseType:'stream'
@@ -109,7 +109,8 @@ export default {
                 this.bot_invited = "0"
                 alert("서버 수를 불러오는데 문제가 발생했습니다.")
                 console.error(error)
-            })
+            })*/
+            this.bot_invited = "9"
         }
     }
 }
