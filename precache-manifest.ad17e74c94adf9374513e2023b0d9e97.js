@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.svg"
   },
   {
-    "revision": "2e1e904a364202f5351abef4a970fde0",
+    "revision": "e11a2c54b6dbdfdc0c9f2fb1a75d9513",
     "url": "/index.html"
   },
   {
