@@ -4,23 +4,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "3059ab46ea90892d42f1efabb82727b7",
+    "revision": "730560a3292a9d123688b059dbcfaefb",
     "url": "/css/dark/all.css"
   },
   {
-    "revision": "2657a919b156964b410a16aebe3815fc",
+    "revision": "d75a1688c4e4c70b6d7a8b4b41bc66a0",
+    "url": "/css/fullpage.css"
+  },
+  {
+    "revision": "1599524dd41472310c8ce3cf94a27498",
     "url": "/css/light/banner.css"
   },
   {
-    "revision": "0553b5b6bde60e06927090758c85af09",
+    "revision": "1387173c4965347bdebd929ecba8f871",
     "url": "/css/light/common.css"
   },
   {
-    "revision": "8bd50942b3f492bd32ca2869e75b371a",
+    "revision": "8f64643d86e826ba85da22aa6cab5529",
     "url": "/css/light/contents.css"
   },
   {
-    "revision": "3ed0ff37af255691fe9d2b352d5d0250",
+    "revision": "f486a8949b2beb099c9c6768691e5864",
     "url": "/css/light/crossbrowser.css"
   },
   {
@@ -28,48 +32,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/dummy.css"
   },
   {
-    "revision": "01aa4dba23116f4ab13a1e8d9a200f6e",
+    "revision": "6ba83e3938c6c6dbbf7674a41b5f436f",
     "url": "/css/light/etc.css"
   },
   {
-    "revision": "208958ec5fd2b3ea56d4ff41fb1e64ed",
+    "revision": "21687c5ce7ab0964ce3c7721cd80af91",
     "url": "/css/light/footer.css"
   },
   {
-    "revision": "b2e31acda69b5baaeffac8dc97aec094",
+    "revision": "0aaf9c5648c6cff58426112352d1435a",
     "url": "/css/light/header.css"
   },
   {
-    "revision": "b0ce2889df5c61613100a473dd7d76a1",
+    "revision": "ffab9f42f521cc644d0df4a487753c77",
     "url": "/css/light/main.css"
   },
   {
-    "revision": "b5cc338ed0fe686acc8c20ec9657cfd2",
-    "url": "/img/Heart_Eyes_Emoji.png"
+    "revision": "3594d78a5c05e00b8ca63c6066aca744",
+    "url": "/css/rollingNumber.css"
   },
   {
     "revision": "cbec3d54f5f9b69c3ebb0ba3b85ce556",
-    "url": "/img/back_ground/haley.gif"
+    "url": "/img/background/haley.gif"
   },
   {
     "revision": "7ca156592f76f1f0f8430fcf884ea1de",
-    "url": "/img/back_ground/lavi.png"
-  },
-  {
-    "revision": "b235c2598cd4a1166ab11d21d2ac520f",
-    "url": "/img/banner/banner1.png"
+    "url": "/img/background/lavi.png"
   },
   {
     "revision": "9f3363d50a2de55b9c2ba77d29cfec68",
     "url": "/img/dark_mode.svg"
   },
   {
-    "revision": "771ebededdf1effcb1f5812c35454520",
-    "url": "/img/github.svg"
-  },
-  {
-    "revision": "deb4d64fb8627e33aba9fe6b581c717a",
-    "url": "/img/globe.svg"
+    "revision": "90a2ca39a538478c88c1fc577d2588cd",
+    "url": "/img/games/1.png"
   },
   {
     "revision": "0984040eef9233c2763369c6eb47b7f4",
@@ -84,15 +80,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/light_mode.svg"
   },
   {
-    "revision": "dc3c8526109da3188a9f5e279200e284",
+    "revision": "a54d7f48dd5744a07a3c51930e900026",
     "url": "/img/logo.svg"
   },
   {
-    "revision": "b5cc338ed0fe686acc8c20ec9657cfd2",
-    "url": "/img/user.png"
-  },
-  {
-    "revision": "1f9c2ce7f96c7cc85221b9c41a46c26d",
+    "revision": "38b308d2167ea746a48fac209b0c9c57",
     "url": "/index.html"
   },
   {
@@ -108,23 +100,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.ada1582d.js"
   },
   {
-    "revision": "4b183bab67218cca2b73",
-    "url": "/js/app.2942a68a.js"
+    "revision": "b5e446e9ed833e5e9c7a",
+    "url": "/js/app.b5537bae.js"
   },
   {
-    "revision": "675d9c1984b32dcd1a32",
-    "url": "/js/chunk-vendors.a24a8e1a.js"
+    "revision": "90b9b62b71b93f6717ce",
+    "url": "/js/chunk-vendors.5ae193a2.js"
   },
   {
-    "revision": "187988ec1501e70f3ff8bc3d974c8239",
+    "revision": "8bec0cc5bf441dbd443ca0cc9d3109cb",
+    "url": "/js/fullpage.js"
+  },
+  {
+    "revision": "2905d965a45932bdfe2bb58f3ab202f1",
     "url": "/js/js.js"
+  },
+  {
+    "revision": "3d2681dce3bd974e91906091711320d2",
+    "url": "/js/rollingNumber.js"
   },
   {
     "revision": "4965f9b76429b04fa3944cf948891b24",
     "url": "/manifest.json"
   },
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
   },
   {

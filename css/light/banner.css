@@ -4,51 +4,23 @@
   align-items: center;
   flex-direction: column;
 }
-  
-  #banner1 {
-    width: 1080px;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  #banner2 {
-    width: 1080px;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.section {
+  width: 1000px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
-  #banner3 {
-    width: 700px;
-    height: 40vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #banner4 {
-    width: 900px;
-    height: 40vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #banner5 {
-    width: 900px;
-    height: 40vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+#banner1 .banner_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   
   #banner1 h1 {
-    font-size: 70px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    font-size: 50px;
+    margin: 0px;
     color: #000000;
   }
 
@@ -58,33 +30,37 @@
 
   .banner_inner {
     width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .left_content {
-    width: 380px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 320px;
+    height: max-content;
   }
   
   .banner_content {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #505050;
   }
 
   .banner_background {
+    display: inline-block;
+    position: relative;
     overflow: hidden;
-    width: 600px;
-    height: 400px;
+    width: 470px;
+    height: 300px;
     border-radius: 20px;
     background-color: #373940;
     box-shadow: 0px 0px 30px -4px #000000;
   }
 
   .banner_background video {
-    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 150%;
   }
   
   .banner_background img {
@@ -97,30 +73,14 @@
     align-items: center;
   }
 
-  .button1 {
-    width: 180px;
-    height: 50px;
-    font-size: 18px;
+  .button {
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
     border-radius: 10px;
-    margin-top: 40px;
     box-shadow: 0px 0px 25px -4px #000000;
     color: #ffffff;
-    background-color: #000000;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .button2 {
-    width: 250px;
-    height: 80px;
-    font-size: 23px;
-    border-radius: 10px;
-    margin-top: 40px;
-    box-shadow: 0px 0px 25px -4px #000000;
-    color: #ffffff;
-    background-color: #000000;
+    background-color: #050505;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -128,7 +88,7 @@
   }
 
   #banner2 h1 {
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 0px;
     margin-bottom: 10px;
     color: #000000;
@@ -136,7 +96,7 @@
   }
   
   .minigame_title {
-    width: 90%;
+    padding: 0px 60px;
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
@@ -144,38 +104,56 @@
   }
 
   .minigame_title a {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .minigames {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 30px;
+    gap: 35px;
     width: 100%;
-    height: 100%;
   }
 
   .minigames h3 {
-    margin-top: 0px;
-    margin-bottom: 25px;
+    margin: 40px 0px 10px 40px;
   }
 
   .minigames div {
     box-shadow: 0px 0px 20px -5px #000000;
-    background-color: #000000;
     color: #ffffff;
+    background: #050505;
     border-radius: 20px;
-    padding: 30px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .minigames div a {
+    color: rgb(216, 216, 216);
+    font-size: 14px;
+    margin-left: 30px;
   }
 
   #banner3 h1 {
-    font-size: 40px;
+    font-size: 25px;
+    width: max-content;
   }
 
-  #banner3 a {
+  #banner3 .banner_inner {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  #banner3 .banner_inner div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #banner3 .rolling {
     padding: 0px 10px;
-    font-size: 60px;
+    font-size: 15px;
     font-weight: 800;
     color:#ffffff;
     background-color: #000000;
