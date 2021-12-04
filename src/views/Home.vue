@@ -110,7 +110,7 @@ export default {
                 setInterval(function(){
                     if (percentEl.innerHTML >= max) { return; } //Stop recursive when max reach
                     percentEl.innerHTML++;
-                }, 100)
+                }, 50)
             })();
         }
     }
