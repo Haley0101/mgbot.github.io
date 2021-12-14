@@ -74,6 +74,7 @@
 
 <script>
 import axios from 'axios';
+<<<<<<< HEAD
 import num_roll from '../../public/js/rollingNumber.js';
 import fullpage from '../../public/js/fullpage.js';
 
@@ -81,29 +82,50 @@ new fullpage('#fullpage', {});
 
 export default {
     name: 'App',
+=======
+//import rollingNumber from '../../public/js/rollingNumber.js';
+export default {
+    name: 'App',
+    //components: { rollingNumber },
+>>>>>>> b32618f679636d64e28ebc23d56d7df7c636227a
     
     mounted() {
         this.get_bot_invited()
         // num_roll(1, `${bot_invited}`)
         num_roll(1, `12345`)  //bot_invited값이 안에 들어가도록 구현해주세요
     },
+<<<<<<< HEAD
+=======
+    data() {
+        return {
+            bot_invited: "0"
+        };
+    },
+>>>>>>> b32618f679636d64e28ebc23d56d7df7c636227a
     methods: {
         get_bot_invited() {
-            axios({
+            /*axios({
                 method:'post',
                 url:'http://125.184.79.22:5000/api',
                 responseType:'stream'
             })
-
             .then((response) => {
                 return response.data.guilds
             })
-
             .catch((error) => {
                 this.bot_invited = "0"
                 alert("서버 수를 불러오는데 문제가 발생했습니다.")
                 console.error(error)
-            })
+            })*/
+            this.bot_invited = "9"
+            var percentEl = document.querySelector('#roll_1');
+            var max = this.bot_invited;
+            (function animloop() {
+                setInterval(function(){
+                    if (percentEl.innerHTML >= max) { return; } //Stop recursive when max reach
+                    percentEl.innerHTML++;
+                }, 50)
+            })();
         }
     }
 }

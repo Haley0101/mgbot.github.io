@@ -1,4 +1,4 @@
-# mgbot
+# Mini-game Bot Website
 
 ## Project setup
 ```
@@ -14,5 +14,7 @@ yarn serve
 ```
 yarn build
 ```
+
+### Website URL
 
 https://mgbot.happycoding.team/
