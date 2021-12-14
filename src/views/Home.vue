@@ -56,7 +56,6 @@
                 <div>
                     <h1>MG봇을 사용중인 서버 수</h1>
                     <a class="roll drag_none" id="roll_1"></a>
-                    <a>{{bot_invited}}</a>
                 </div>
 
                 <div>
@@ -75,24 +74,19 @@
 
 <script>
 import axios from 'axios';
-import rollingNumber from '../../public/js/rollingNumber.js';
+import num_roll from '../../public/js/rollingNumber.js';
 import fullpage from '../../public/js/fullpage.js';
 
 new fullpage('#fullpage', {});
 
 export default {
     name: 'App',
-    components: { rollingNumber },
     
     mounted() {
         this.get_bot_invited()
+        // num_roll(1, `${bot_invited}`)
+        num_roll(1, `12345`)  //bot_invited값이 안에 들어가도록 구현해주세요
     },
-    data() {
-        return {
-            bot_invited: "123"
-        };
-    },
-
     methods: {
         get_bot_invited() {
             axios({
@@ -102,7 +96,7 @@ export default {
             })
 
             .then((response) => {
-                this.bot_invited = response.data.guilds
+                return response.data.guilds
             })
 
             .catch((error) => {
