@@ -12,16 +12,42 @@
   align-items: center;
 }
 
+@media all and (max-width: 1200px) { 
+  .section {
+    width: 850px;
+  }
+}
+
+@media all and (max-width: 1020px) { 
+  .section {
+    width: 750px;
+  }
+}
+
 #banner1 .banner_inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
+}
+
+@media all and (max-width: 830px) { 
+  #banner1 .banner_inner {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
   
   #banner1 h1 {
     font-size: 50px;
     margin: 0px;
     color: #000000;
+  }
+
+  @media all and (max-width: 1020px) { 
+    #banner1 h1 {
+      font-size: 40px;
+    }
   }
 
   #banner2 .banner_inner {
@@ -46,6 +72,12 @@
     color: #505050;
   }
 
+  @media all and (max-width: 1020px) { 
+    .banner_content {
+      font-size: 15px;
+    }
+  }
+
   .banner_background {
     display: inline-block;
     position: relative;
@@ -55,6 +87,20 @@
     border-radius: 20px;
     background-color: #373940;
     box-shadow: 0px 0px 30px -4px #000000;
+  }
+
+  @media all and (max-width: 1200px) { 
+    .banner_background {
+      width: 420px;
+      height: 250px;
+    }
+  }
+
+  @media all and (max-width: 1020px) { 
+    .banner_background {
+      width: 350px;
+      height: 220px;
+    }
   }
 
   .banner_background video {
@@ -94,6 +140,12 @@
     color: #000000;
     margin: 0px;
   }
+
+  @media all and (max-width: 1020px) { 
+    #banner2 h1 {
+      font-size: 40px;
+    }
+  }
   
   .minigame_title {
     padding: 0px 60px;
@@ -107,6 +159,12 @@
     font-size: 18px;
   }
 
+  @media all and (max-width: 1020px) { 
+    .minigame_title a {
+      font-size: 15px;
+    }
+  }
+
   .minigames {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -116,6 +174,13 @@
 
   .minigames h3 {
     margin: 40px 0px 10px 40px;
+    font-size: 18px;
+  }
+
+  @media all and (max-width: 1020px) { 
+    .minigames h3 {
+      font-size: 15px;
+    }
   }
 
   .minigames div {
@@ -126,6 +191,18 @@
     height: 200px;
     overflow: hidden;
     position: relative;
+  }
+
+  @media all and (max-width: 1200px) { 
+    .minigames div {
+      height: 180px;
+    }
+  }
+
+  @media all and (max-width: 1020px) { 
+    .minigames div {
+      height: 170px;
+    }
   }
 
   .minigames div a {
