@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/footer.css"
   },
   {
-    "revision": "8a8f5218f57113cb99f0c127cb08b6c9",
+    "revision": "05604a86b7347859c7ba9b023c114ac8",
     "url": "/css/light/header.css"
   },
   {
