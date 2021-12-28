@@ -12,22 +12,23 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    width: 1000px;
   }
-  
-  @media all and (min-width: 1520px) { 
+
+  @media all and (max-width: 1080px) { 
     .footer3 {
-      width: 1000px;
-    }
-  }
-  
-  @media all and (max-width: 1520px) { 
-    .footer3 {
-      width: 1000px;
+      width: 100%;
     }
   }
   
   .footer1 {
     display: flex;
+  }
+
+  @media all and (max-width: 1080px) { 
+    .footer1 {
+      margin: 0px 40px;
+    }
   }
   
   .footer1 div {
