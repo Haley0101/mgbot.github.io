@@ -73,18 +73,17 @@
 </template>
 
 <script>
-import axios from 'axios';
+// import axios from 'axios';
 import num_roll from '../../public/js/rollingNumber.js';
-import fullpage from '../../public/js/fullpage.js';
+// import fullpage from '../../public/js/fullpage.js';
 
-new fullpage('#fullpage', {});
+// new fullpage('#fullpage', {});
 
 export default {
     name: 'App',
     
     mounted() {
         this.get_bot_invited()
-        // num_roll(1, `${bot_invited}`)
         num_roll(1, `12345`)  //bot_invited값이 안에 들어가도록 구현해주세요
     },
     methods: {
