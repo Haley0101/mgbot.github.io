@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/footer.css"
   },
   {
-    "revision": "bc9a6845126f9fca288b8213c4adfa67",
+    "revision": "998fd2ac6c09b2d8a3fb99bf07f0b85c",
     "url": "/css/light/header.css"
   },
   {
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.svg"
   },
   {
-    "revision": "9a3a2e6f8c6d3a17bfe7a02d88e3d5fb",
+    "revision": "ad04853b22da49f96fc543d51a6b5ae2",
     "url": "/index.html"
   },
   {
@@ -100,8 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.fe292886.js"
   },
   {
-    "revision": "d4d63ed16045775aa9c6",
-    "url": "/js/app.248030d4.js"
+    "revision": "0b7a86fc9b87911555ef",
+    "url": "/js/app.e926c246.js"
+  },
+  {
+    "revision": "fbe1e69c193c91d5c4f4712918c990a3",
+    "url": "/js/burgerBtn.js"
   },
   {
     "revision": "cba2523160545068ffa4",
