@@ -1,7 +1,7 @@
 /* 헤더, 아이콘, 네비게이션 */
 header {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 4;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,12 @@ header {
       width: 100%;
     }
   }
+
+  @media all and (max-width: 570px) { 
+    .navbar1 {
+      height: 80px;
+    }
+  }
   
   .navbar2 {
     width: 100%;
@@ -28,6 +34,12 @@ header {
     background-color: #0f0f0f;
     box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
     position: absolute;
+  }
+
+  @media all and (max-width: 570px) { 
+    .navbar2 {
+      padding-bottom: 80px;
+    }
   }
   
   .logo3 {
@@ -38,9 +50,16 @@ header {
     opacity: 1.0;
     color: #ffffff;
   }
+
+  
+  @media all and (max-width: 570px) { 
+    .logo3 {
+      height: 30px;
+    }
+  }
   
   .logo:hover {
-    opacity: 0.8;
+    opacity: 0.6;
   }
   
   .logo1 {
@@ -48,6 +67,12 @@ header {
     align-items: center;
     margin: 0px 30px 0px 20px;
     z-index: 2;
+  }
+
+  @media all and (max-width: 570px) {
+    .logo1 {
+      margin: 0px 0px 0px 40px;
+    }
   }
   
   .logo2 {
@@ -85,6 +110,12 @@ header {
     color: #ffffff;
     border-top: 10px solid #00000000;
   }
+
+  @media all and (max-width: 570px) { 
+    .menu a {
+      display: none;
+    }
+  }
   
   .menu a:hover {
     color: #e4e4e4;
@@ -93,10 +124,51 @@ header {
   .RightMenu {
     color: #ffffff;
     margin-right: 20px;
-    height: 23px;
+  }
+
+  @media all and (max-width: 570px) { 
+    .RightMenu {
+      margin-right: 40px;
+    }
+  }
+  
+  @media all and (max-width: 570px) { 
+    .RightMenu a {
+      display: none !important;
+    }
   }
 
   .RightMenu img {
     margin-left: 0px;
     z-index: 2;
+  }
+
+  .burger {
+    width: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+    transform: all 0.4s;
+  }
+
+  @media all and (min-width: 570px) { 
+    .burger {
+      display: none !important;
+    }
+  }
+
+  .burger div {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+  }
+
+  .toggle:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
