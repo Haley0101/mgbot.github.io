@@ -1,5 +1,5 @@
 <template>
-    <div id="fullpage" class="home">
+    <div class="home">
         <div class="section" id="banner1">
             <div class="banner_inner">
                 <div class="left_content">

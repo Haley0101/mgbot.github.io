@@ -13,10 +13,10 @@ header {
     align-items: center;
     display: flex;
     height: 60px;
-    width: 1000px;
+    width: 1040px;
   }
   
-  @media all and (max-width: 1040px) { 
+  @media all and (max-width: 1020px) { 
     .navbar1 {
       width: 100%;
     }
@@ -46,7 +46,7 @@ header {
   .logo1 {
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin: 0px 30px 0px 20px;
     z-index: 2;
   }
   
@@ -92,7 +92,7 @@ header {
   
   .RightMenu {
     color: #ffffff;
-    margin-left: 60px;
+    margin-right: 20px;
     height: 23px;
   }
 
