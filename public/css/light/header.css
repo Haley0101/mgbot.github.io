@@ -22,7 +22,7 @@ header {
     }
   }
 
-  @media all and (max-width: 570px) { 
+  @media all and (max-width: 720px) { 
     .navbar1 {
       height: 80px;
     }
@@ -36,7 +36,7 @@ header {
     position: absolute;
   }
 
-  @media all and (max-width: 570px) { 
+  @media all and (max-width: 720px) { 
     .navbar2 {
       padding-bottom: 80px;
     }
@@ -52,7 +52,7 @@ header {
   }
 
   
-  @media all and (max-width: 570px) { 
+  @media all and (max-width: 720px) { 
     .logo3 {
       height: 30px;
     }
@@ -69,7 +69,7 @@ header {
     z-index: 2;
   }
 
-  @media all and (max-width: 570px) {
+  @media all and (max-width: 720px) {
     .logo1 {
       margin: 0px 0px 0px 40px;
     }
@@ -111,7 +111,7 @@ header {
     border-top: 10px solid #00000000;
   }
 
-  @media all and (max-width: 570px) { 
+  @media all and (max-width: 720px) { 
     .menu a {
       display: none;
     }
@@ -126,13 +126,13 @@ header {
     margin-right: 30px;
   }
 
-  @media all and (max-width: 570px) { 
+  @media all and (max-width: 720px) { 
     .RightMenu {
       margin-right: 40px;
     }
   }
   
-  @media all and (max-width: 570px) { 
+  @media all and (max-width: 720px) { 
     .RightMenu a {
       display: none !important;
     }
@@ -153,7 +153,7 @@ header {
     transform: all 0.4s;
   }
 
-  @media all and (min-width: 571px) { 
+  @media all and (min-width: 721px) { 
     .burger {
       display: none !important;
     }
