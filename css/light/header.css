@@ -125,23 +125,34 @@ header {
   .RightMenu {
     color: #ffffff;
     margin-right: 30px;
+    display: flex;
+    align-items: center;
   }
 
   @media all and (max-width: 720px) { 
     .RightMenu {
       margin-right: 40px;
-    }
-  }
-  
-  @media all and (max-width: 720px) { 
-    .RightMenu a {
-      display: none !important;
+      gap: 20px;
     }
   }
 
   .RightMenu img {
     margin-left: 0px;
-    z-index: 2;
+    height: 23px;
+  }
+
+  #lightBtn, #darkBtn {
+    height: 23px;
+  }
+
+  @media all and (max-width: 720px) { 
+    .RightMenu img {
+      height: 28px;
+    }
+
+    #lightBtn, #darkBtn {
+      height: 28px;
+    }
   }
 
   .burger {
