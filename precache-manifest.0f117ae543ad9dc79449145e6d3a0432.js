@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/etc.css"
   },
   {
-    "revision": "122ae3c0b9e5f7d5a829ade3b83a208d",
+    "revision": "9e3d784c8453176a6390ed960dab6e26",
     "url": "/css/light/footer.css"
   },
   {
@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.svg"
   },
   {
-    "revision": "259e80329178ead9977bf638f278cc33",
+    "revision": "40608e40afe549af90eb5ded13fc8429",
     "url": "/index.html"
   },
   {

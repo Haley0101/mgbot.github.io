@@ -136,4 +136,8 @@ footer {
     .footMenu a {
       font-size: 20px;
     }
+
+    #copyright {
+      margin-bottom: 45px;
+    }
   }
