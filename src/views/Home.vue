@@ -19,34 +19,28 @@
         <div class="section" id="banner2">
             <div class="banner_inner">
                 <div class="minigame_title">
-                    <h1>미니게임</h1>
-                    <a>다양하고 재미있는 미니게임을 제공합니다.</a>
+                    <h1>다양한 미니게임을 제공합니다</h1>
                 </div>
                 <div class="minigames">
                     <div>
-                        <h3>제작중입니다</h3>
-                        <a></a>
                     </div>
                     <div>
-                        <h3>제작중입니다</h3>
-                        <a></a>
                     </div>
                     <div>
-                        <h3>제작중입니다</h3>
-                        <a></a>
                     </div>
-                    <div>
-                        <h3>제작중입니다</h3>
-                        <a></a>
+                </div>
+                <div class="minigameInfo">
+                    <h3>제작중입니다</h3>
+                    <a>제작중입니다</a>
+                </div>
+                <div class="minigameBottom">
+                    <div class="arrowLeft" onclick="minigameMove(0)"><svg width="10.5" height="17" viewBox="0 0 2.7781249 4.4979166" xmlns="http://www.w3.org/2000/svg"><path style="paint-order:normal" d="M2.381.397l-1.984 1.72 1.984 1.984" stroke="#000" stroke-width=".6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div>
+                    <div class="minigameDots">
+                        <div class="dotPoint"></div>
+                        <div></div>
+                        <div></div>
                     </div>
-                    <div>
-                        <h3>제작중입니다</h3>
-                        <a></a>
-                    </div>
-                    <div>
-                        <h3>제작중입니다</h3>
-                        <a></a>
-                    </div>
+                    <div class="arrowRight" onclick="minigameMove(1)"><svg width="10.5" height="17" viewBox="0 0 2.7781249 4.4979166" xmlns="http://www.w3.org/2000/svg"><path style="paint-order:normal" d="M.397.397l1.984 1.72-1.984 1.984" stroke="#000" stroke-width=".6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div>
                 </div>
             </div>
         </div>
@@ -102,6 +96,14 @@ export default {
                 console.error(error)
             })*/
         }
+    }
+}
+
+function minigameMove(LR) {
+    if(LR == 0) {
+        
+    } else {
+
     }
 }
 </script>

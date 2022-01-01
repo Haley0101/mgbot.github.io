@@ -198,7 +198,7 @@
   }
 
   #banner2 h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 0px;
     margin-bottom: 10px;
     color: #000000;
@@ -230,10 +230,12 @@
   }
 
   .minigames {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 35px;
+    height: 400px;
     width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 20px;
   }
 
   .minigames h3 {
@@ -252,9 +254,10 @@
     color: #ffffff;
     background: #050505;
     border-radius: 20px;
-    height: 200px;
+    height: 100%;
+    width: 70%;
     overflow: hidden;
-    position: relative;
+    flex-shrink: 0;
   }
 
   @media all and (max-width: 1200px) { 
@@ -273,6 +276,51 @@
     color: rgb(216, 216, 216);
     font-size: 14px;
     margin-left: 30px;
+  }
+
+  .minigameInfo {
+    
+  }
+
+  .minigameBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .arrowLeft, .arrowRight {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 8px #0006;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrowLeft svg, .arrowRight svg {
+    height: 8px;
+  }
+
+  .minigameDots {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .minigameDots div {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0px 0px 8px #0006;
+  }
+
+  .dotPoint {
+    background: #fff !important;
   }
 
   #banner3 h1 {
