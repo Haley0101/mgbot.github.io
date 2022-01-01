@@ -15,8 +15,8 @@
                 <router-link to="/dev">개발자</router-link>
             </div>
             <div class="RightMenu">
-                <a id="darkBtn"><img style="height: 23px" src="img/light_mode.svg"></a>
-                <a id="lightBtn"><img style="height: 23px" src="img/dark_mode.svg"></a>
+                <a id="darkBtn"><img src="img/light_mode.svg"></a>
+                <a id="lightBtn"><img src="img/dark_mode.svg"></a>
                 <div class="burger"><div></div><div></div><div></div></div>
             </div>
         </div>
