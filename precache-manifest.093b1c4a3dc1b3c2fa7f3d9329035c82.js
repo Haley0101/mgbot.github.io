@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/fullpage.css"
   },
   {
-    "revision": "db5afadf32720338a6d7155443f94799",
+    "revision": "1e9a82c1a0a02fddd64975f6650f8b31",
     "url": "/css/light/banner.css"
   },
   {
