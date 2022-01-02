@@ -10,4 +10,4 @@
 
 - [라비](https://github.com/lavi27) Front-end
 - [씅게이트](https://github.com/kms0219kms) Front-end, nodeJs
-- [할리](https://github.com/Haley0101) Director
+- [할리](https://github.com/Haley0101) Manager
