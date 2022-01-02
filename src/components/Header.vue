@@ -21,18 +21,16 @@
             </div>
         </div>
         <div class="mobMenu">
-            <div class="mobMenuInner">
-                <div class="mobMenuLinks">
-                    <router-link to="/">메인</router-link>
-                    <hr>
-                    <router-link to="/path_note">패치 노트</router-link>
-                    <hr>
-                    <router-link to="/help_menu">도움말</router-link>
-                    <hr>
-                    <a href="https://discord.com/oauth2/authorize?client_id=856090100458979379&amp;permissions=8&amp;scope=bot" target="_blank">봇 초대</a>
-                    <hr>
-                    <router-link to="/dev">개발자</router-link>
-                </div>
+            <div class="mobMenuLinks">
+                <router-link to="/">메인</router-link>
+                <hr>
+                <router-link to="/path_note">패치 노트</router-link>
+                <hr>
+                <router-link to="/help_menu">도움말</router-link>
+                <hr>
+                <a href="https://discord.com/oauth2/authorize?client_id=856090100458979379&amp;permissions=8&amp;scope=bot" target="_blank">봇 초대</a>
+                <hr>
+                <router-link to="/dev">개발자</router-link>
             </div>
         </div>
     </header>
