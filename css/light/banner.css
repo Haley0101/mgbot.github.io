@@ -26,13 +26,13 @@
 
 @media all and (max-width: 830px) { 
   .section {
-    width: 100vw;
+    width: 100%;
   }
 }
 
 @media all and (max-width: 460px) { 
   .section {
-    width: 80vw;
+    width: 80%;
   }
 }
 
@@ -76,7 +76,15 @@
   }
 
   #banner2 .banner_inner {
+    display: flex;
     flex-direction: column !important;
+    gap: 40px;
+  }
+
+  @media all and (max-width: 1020px) { 
+    #banner2 .banner_inner {
+      gap: 20px;
+    }
   }
 
   .banner_inner {
@@ -91,9 +99,9 @@
     height: max-content;
   }
 
-  @media all and (max-width: 830px) { 
+  @media all and (max-width: 460px) { 
     .left_content {
-      width: auto;
+      width: 100%;
       gap: 15px;
     }
   }
@@ -168,6 +176,19 @@
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+    width: auto;
+  }
+
+  @media all and (max-width: 460px) { 
+    .buttons {
+      width: 100%;
+      gap: 6%;
+    }
+
+    .buttons .button {
+      width: 100%;
+      flex-shrink: 1;
+    }
   }
 
   .button {
@@ -182,6 +203,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
+    transition: all 0.1s;
   }
 
   @media all and (max-width: 830px) { 
@@ -193,14 +216,17 @@
   @media all and (max-width: 460px) { 
     .button {
       font-size: 13px;
-      width: 100%;
     }
+  }
+
+  .button:hover {
+    box-shadow: 0px 0px 22px -4px #000000;
+    background-color: #131313;
   }
 
   #banner2 h1 {
     font-size: 40px;
     margin-top: 0px;
-    margin-bottom: 10px;
     color: #000000;
     margin: 0px;
   }
@@ -210,13 +236,25 @@
       font-size: 40px;
     }
   }
+
+  @media all and (max-width: 460px) { 
+    #banner2 h1 {
+      font-size: 9vw;
+    }
+  }
   
   .minigame_title {
     padding: 0px 60px;
-    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    word-break: keep-all;
+  }
+
+  @media all and (max-width: 460px) { 
+    .minigame_title {
+      padding: 0px;
+    }
   }
 
   .minigame_title a {
@@ -232,10 +270,23 @@
   .minigames {
     gap: 35px;
     height: 400px;
-    width: 100%;
     overflow: hidden;
     display: flex;
-    padding: 20px;
+    padding: 20px 60px;
+  }
+
+  @media all and (max-width: 1020px) { 
+    .minigames {
+      padding: 20px 20px;
+      margin: 0px 40px;
+    }
+  }
+
+  @media all and (max-width: 460px) { 
+    .minigames {
+      padding: 0px;
+      margin: 0px;
+    }
   }
 
   .minigames h3 {
@@ -260,15 +311,9 @@
     flex-shrink: 0;
   }
 
-  @media all and (max-width: 1200px) { 
-    .minigames div {
-      height: 180px;
-    }
-  }
-
   @media all and (max-width: 1020px) { 
     .minigames div {
-      height: 170px;
+      width: 100%;
     }
   }
 
@@ -279,7 +324,17 @@
   }
 
   .minigameInfo {
-    
+    padding: 0px 60px;
+  }
+
+  @media all and (max-width: 460px) { 
+    .minigameInfo {
+      padding: 0px;
+    }
+  }
+
+  .minigameInfo h3 {
+    margin: 0px 0px 10px 0px;
   }
 
   .minigameBottom {
@@ -325,7 +380,18 @@
 
   #banner3 h1 {
     font-size: 25px;
-    width: max-content;
+  }
+
+  @media all and (max-width: 1020px) { 
+    #banner3 h1 {
+      font-size: 22px;
+    }
+  }
+
+  @media all and (max-width: 460px) { 
+    #banner3 h1 {
+      font-size: 20px;
+    }
   }
 
   #banner3 .banner_inner {
@@ -338,6 +404,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    word-break: keep-all;
+    padding: 0px 60px;
+  }
+
+  @media all and (max-width: 460px) { 
+    #banner3 .banner_inner div {
+      padding: 0px;
+      gap: 15px;
+      flex-direction: column;
+    }
   }
 
   #banner3 .rolling {

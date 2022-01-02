@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/fullpage.css"
   },
   {
-    "revision": "ba960791a613ddd54cd83640a64a80d8",
+    "revision": "775bc249808602317efd65d4180bf191",
     "url": "/css/light/banner.css"
   },
   {
@@ -32,11 +32,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/etc.css"
   },
   {
-    "revision": "9e3d784c8453176a6390ed960dab6e26",
+    "revision": "447f22ea0fea03d1423e1b233e4e1a4b",
     "url": "/css/light/footer.css"
   },
   {
-    "revision": "d60b55af74bf9ab3c95e7bb41eda11b2",
+    "revision": "72e6e4f1922dbe4764123b0aec99d5b3",
     "url": "/css/light/header.css"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/main.css"
   },
   {
-    "revision": "3594d78a5c05e00b8ca63c6066aca744",
+    "revision": "a22b7aafdf5a4005b8cd0bf7cd1653d6",
     "url": "/css/rollingNumber.css"
   },
   {
@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.svg"
   },
   {
-    "revision": "f5521a71b813e6f509cdbdd1861f229e",
+    "revision": "b6fc5c1f2848c5146fb37fbbcd658f24",
     "url": "/index.html"
   },
   {
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.fe292886.js"
   },
   {
-    "revision": "d3ae69075f69a35e61d6",
-    "url": "/js/app.ce38bd55.js"
+    "revision": "85bd582addfbd7769546",
+    "url": "/js/app.540f892d.js"
   },
   {
     "revision": "cba2523160545068ffa4",

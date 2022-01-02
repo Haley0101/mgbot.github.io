@@ -8,7 +8,7 @@ footer {
   }
   
   .footer3 {
-    padding: 60px 0px;
+    padding: 40px 0px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -24,13 +24,14 @@ footer {
   @media all and (max-width: 720px) { 
     .footer3 {
       padding: 40px 0px;
-      gap: 45px;
+      gap: 20px;
     }
   }
   
   .footer1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   @media all and (max-width: 1080px) { 
@@ -42,6 +43,7 @@ footer {
   @media all and (max-width: 720px) { 
     .footer1 {
       flex-direction: column;
+      align-items: normal;
     }
   }
   
@@ -78,11 +80,11 @@ footer {
     align-items: center;
   }
 
-  .footMenu {
+  .footMenu, .other {
     display: flex;
     align-items: center;
     flex-wrap : wrap;
-    line-height: 35px;
+    line-height: 50px;
   }
 
   .footMenu a {
@@ -105,15 +107,15 @@ footer {
 
   #menu, #other {
     display: none;
-    font-size: 22px;
+    font-size: 18px;
     color: #eee;
     margin-bottom: 10px;
   }
 
   #copyright {
     display: none;
-    font-size: 16px;
-    color: #7a7a7a;
+    font-size: 12px;
+    color: #5c5c5c;
   }
 
   @media all and (max-width: 720px) {
