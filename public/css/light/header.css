@@ -52,6 +52,10 @@ header {
     color: #ffffff;
   }
 
+  .logo3:hover {
+    filter: brightness(85%);
+  }
+
   
   @media all and (max-width: 720px) { 
     .logo3 {
@@ -141,6 +145,10 @@ header {
     height: 23px;
   }
 
+  .RightMenu img:hover {
+    filter: brightness(85%);
+  }
+
   #lightBtn, #darkBtn {
     height: 23px;
   }
@@ -196,18 +204,19 @@ header {
     overflow: hidden;
   }
 
-  .mobMenuInner {
-    margin: 15px 40px;
-  }
-
   .mobMenuLinks {
     display: flex;
     flex-direction: column;
-    gap: 15px;
   }
 
   .mobMenuLinks a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 50px;
+  }
+
+  .mobMenuLinks hr {
+    width: 85%;
+    margin: 0px auto;
   }
