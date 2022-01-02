@@ -26,21 +26,21 @@
                     </div>
                     <div>
                     </div>
-                    <div>
-                    </div>
+                    <!-- <div>
+                    </div> -->
                 </div>
                 <div class="minigameInfo">
                     <h3>제작중입니다</h3>
                     <a>제작중입니다</a>
                 </div>
                 <div class="minigameBottom">
-                    <div class="arrowLeft" onclick="minigameMove(0)"><svg width="10.5" height="17" viewBox="0 0 2.7781249 4.4979166" xmlns="http://www.w3.org/2000/svg"><path style="paint-order:normal" d="M2.381.397l-1.984 1.72 1.984 1.984" stroke="#000" stroke-width=".6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div>
+                    <!-- <div class="arrowLeft" onclick="minigameMove(0)"><svg width="10.5" height="17" viewBox="0 0 2.7781249 4.4979166" xmlns="http://www.w3.org/2000/svg"><path style="paint-order:normal" d="M2.381.397l-1.984 1.72 1.984 1.984" stroke="#000" stroke-width=".6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div> -->
                     <div class="minigameDots">
                         <div class="dotPoint"></div>
-                        <div></div>
-                        <div></div>
+                        <!-- <div></div>
+                        <div></div> -->
                     </div>
-                    <div class="arrowRight" onclick="minigameMove(1)"><svg width="10.5" height="17" viewBox="0 0 2.7781249 4.4979166" xmlns="http://www.w3.org/2000/svg"><path style="paint-order:normal" d="M.397.397l1.984 1.72-1.984 1.984" stroke="#000" stroke-width=".6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div>
+                    <!-- <div class="arrowRight" onclick="minigameMove(1)"><svg width="10.5" height="17" viewBox="0 0 2.7781249 4.4979166" xmlns="http://www.w3.org/2000/svg"><path style="paint-order:normal" d="M.397.397l1.984 1.72-1.984 1.984" stroke="#000" stroke-width=".6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div> -->
                 </div>
             </div>
         </div>
@@ -77,8 +77,7 @@ export default {
     name: 'App',
     
     mounted() {
-        this.get_bot_invited()
-        num_roll(1, `12345`)  //bot_invited값이 안에 들어가도록 구현해주세요
+        // num_roll(1, this.get_bot_invited())
     },
     methods: {
         get_bot_invited() {
@@ -91,19 +90,18 @@ export default {
                 return response.data.guilds
             })
             .catch((error) => {
-                this.bot_invited = "0"
-                alert("서버 수를 불러오는데 문제가 발생했습니다.")
+                return '0'
                 console.error(error)
             })*/
         }
     }
 }
 
-function minigameMove(LR) {
-    if(LR == 0) {
+// function minigameMove(LR) {
+//     if(LR == 0) {
         
-    } else {
+//     } else {
 
-    }
-}
+//     }
+// }
 </script>
