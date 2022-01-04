@@ -83,6 +83,15 @@ footer {
     color: #ffffff !important;
 }
 
+.links a i {
+    padding: 2px 4px;
+    color: #bbb;
+}
+
+.links a i:hover {
+    color: #fff;
+}
+
 .footer1 a {
     color: #7a7a7a !important;
     text-decoration: none;
