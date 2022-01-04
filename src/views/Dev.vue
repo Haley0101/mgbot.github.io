@@ -69,7 +69,7 @@
 
                     <div class="links">
                         <a href="https://github.com/lavi27"><i class="fab fa-github"></i></a>
-                        <a href="https://lavi27.kro.kr"><i class="fas fa-globe"></i></a>
+                        <a href="https://lavi27.github.io/l/"><i class="fas fa-globe"></i></a>
                     </div>
 
                     <div class="description">
