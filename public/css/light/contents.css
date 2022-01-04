@@ -1,6 +1,7 @@
 /* 콘텐츠 */
 .content {
     padding: 110px 100px 100px 100px;
+    min-height: calc( 100vh - 200px - 220px);
   }
 
   .container {
@@ -45,6 +46,7 @@
     box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
     text-align: center;
     width: 400px;
+    height: fit-content;
     overflow: hidden;
   }
 
@@ -108,7 +110,7 @@
   .path_note_header {
     display: flex;
     align-items: center;
-    padding: 5px 15px;
+    padding: 5px 30px;
     height: 30px;
   }
 
@@ -117,19 +119,20 @@
   }
 
   .path_note_content {
-    padding: 15px 15px;
+    padding: 15px 30px;
   }
 
   .path_note_footer {
     height: 30px;
     display: flex;
     align-items: center;
-    padding: 5px 15px;
+    padding: 5px 30px;
+    font-size: 12px;
   }
   
   .like {
-    width: 20px;
-    height: 20px;
+    font-size: 20px;
+    margin-top: 3px;
     padding-right: 5px;
   }
   .like_count {
@@ -156,9 +159,9 @@
 
   .user_name {
     margin-right: auto;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .version {
-    font-size: 15px;
+    font-size: 12px;
   }
