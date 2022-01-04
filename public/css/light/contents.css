@@ -1,18 +1,20 @@
 /* 콘텐츠 */
 .content {
-    padding: 110px 100px 100px 100px;
+    padding: 140px 0px;
     min-height: calc( 100vh - 200px - 220px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    column-gap: 30px;
-    row-gap: 80px;
+    display: flex;
+    gap: 70px;
   }
   
   .back_ground {
-    height: 130px;
+    height: 100px;
     overflow: hidden;
     display: flex;
     background-color: #333333;
@@ -26,13 +28,18 @@
     overflow: hidden;
   }
 
+  #devHr {
+    width: 750px;
+    margin: 60px 0px;
+  }
+
   .dev {
     display: flex;
     justify-content: center;
   }
 
   .description {
-    padding: 30px 20px 30px 20px;
+    padding: 25px 20px;
   }
   
   #path_note {
@@ -54,37 +61,41 @@
     position: absolute;
   }
 
-  .profile2 {
+  .profile3 {
     z-index: 1;
     border-radius: 50%;
-    width: 108px;
-    height: 108px;
-    bottom: 50px;
-    left: 20px;
-    filter: drop-shadow(0px 0px 10px #000000);
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    left: 30px;
+    filter: drop-shadow(0px 0px 5px #0009);
     position: relative;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #222222;
-  }
-
-  .profile3 {
-    width: 100px;
-    border-radius: 50%;
+    object-fit: cover;
   }
   
   .info {
-    padding: 10px 20px 0px 140px;
+    padding: 10px 20px 0px 120px;
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
   }
 
-  .info i {
-    padding-left: 8px;
+  .links {
+    margin: 0px 30px 0px auto;
+    width: fit-content;
+  }
+
+  .links a i {
+    padding: 2px 4px;
+    color: #555;
+  }
+
+  .links a i:hover {
+    color: #000;
   }
   
   .icon,
@@ -95,7 +106,6 @@
   }
 
   .name {
-    font-family: "Cafe24SsurroundAir";
     font-size: 22px;
     padding: 0px 7px 0px 0px;
     margin: 0px;

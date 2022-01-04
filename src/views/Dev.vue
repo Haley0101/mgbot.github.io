@@ -4,19 +4,20 @@
             <div class="dev">
                 <section class="box1">
                     <div class="back_ground">
-                        <img src='img/back_ground/haley.gif'>
+                        <video loop autoplay src="img/background/haley.webm"></video>
                     </div>
 
                     <div class="profile1">
-                        <div class="profile2">
-                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/Haley.png'>    
-                        </div>
+                        <img class="profile3" src='img/haley.webp'>
                     </div>
 
                     <div class="info">
                         <h1 class="name">할리</h1>
                         <a class="discord_username">할리#0302</a>
-                        <a href="https://github.com/Haley0101"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
+                    </div>
+
+                    <div class="links">
+                        <a href="https://github.com/Haley0101"><i class="fab fa-github"></i></a>
                     </div>
 
                     <div class="description">
@@ -31,9 +32,7 @@
                     </div>
 
                     <div class="profile1">
-                        <div class="profile2">
-                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/junyeong.gif'>
-                        </div>
+                        <video loop autoplay class="profile3" src="img/junyeong.webm"></video>
                     </div>
 
                     <div class="info">
@@ -41,33 +40,40 @@
                         <a class="discord_username">준영#7040</a>
                     </div>
 
+                    <div class="links">-</div>
+
                     <div class="description">
                         안녕하세요. 미니게임 봇 디렉터 준영 입니다.
                     </div>
                 </section>
             </div>
+        </div>
 
+        <hr id="devHr">
+
+        <div class="container">
             <div class="dev">
                 <section class="box1">
                     <div class="back_ground">
-                        <img src='img/back_ground/lavi.png'>
+                        <img src='img/background/lavi.webp'>
                     </div>
 
                     <div class="profile1">
-                        <div class="profile2">
-                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/lavi.png'>
-                        </div>
+                        <img class="profile3" src='img/lavi.webp'>
                     </div>
 
                     <div class="info">
                         <h1 class="name">라비</h1>
                         <a class="discord_username">라비#2253</a>
-                        <a href="https://github.com/lavi27"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
-                        <a href="https://lavi27.kro.kr"><i class="fas fa-globe"></i><!--<img class="icon" src="img/globe.svg">--></a>
+                    </div>
+
+                    <div class="links">
+                        <a href="https://github.com/lavi27"><i class="fab fa-github"></i></a>
+                        <a href="https://lavi27.kro.kr"><i class="fas fa-globe"></i></a>
                     </div>
 
                     <div class="description">
-                        이 웹사이트를 할리, SSKATE님과<br>함께 만든 사람입니다.
+                        웹사이트의 프론트엔드를 담당하였습니다.
                     </div>
                 </section>
             </div>
@@ -75,17 +81,19 @@
             <div class="dev">
                 <section class="box1">
                     <div class="back_ground">
+                        <img src='img/background/sskate.webp'>
                     </div>
 
                     <div class="profile1">
-                        <div class="profile2">
-                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/AllPGS.png'>
-                        </div>
+                        <video loop autoplay class="profile3" src="img/sskate.webm"></video>
                     </div>
 
                     <div class="info">
                         <h1 class="name">SSKATE</h1>
                         <a class="discord_username">SSKATE#9781</a>
+                    </div>
+
+                    <div class="links">
                         <a href="https://github.com/kms0219kms"><i class="fab fa-github"></i></a>
                         <a href="https://sskate.me/"><i class="fas fa-globe"></i></a>
                         <a href="https://twitter.com/kms0219kms"><i class="fab fa-twitter"></i></a>
