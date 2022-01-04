@@ -1,20 +1,13 @@
-# Mini-game Bot Website
+# 미니게임봇 홈페이지 (MiniGameBot HomePage)
 
-## Project setup
-```
-yarn install
-```
+미니게임 봇의 홈페이지 입니다. [바로가기](https://mgbot.happycoding.team/)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 페이지 구성 (Pages)
 
-### Compiles and minifies for production
-```
-yarn build
-```
+메인 - 패치 노트 - 도움말 - 봇 초대 - 개발자
 
-### Website URL
+## 크레딧 (Credits)
 
-https://mgbot.happycoding.team/
+- [라비](https://github.com/lavi27) Front-end
+- [씅게이트](https://github.com/kms0219kms) Front-end, nodeJs
+- [할리](https://github.com/Haley0101) Total-director
