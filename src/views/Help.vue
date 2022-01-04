@@ -1,4 +1,5 @@
 <template>
+    <div class="content" id="path_note">
         <div class="help_text" style="font-size: 28px;">
             <div style="font-weight: bold; font-size: 30px;">
                 <br> <p class="help_title_text">출석체크 시스템</p>
@@ -8,20 +9,5 @@
             '/출석체크 목록'
             <div>안녕</div>
         </div>
-        
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
+    </div>
 </template>
