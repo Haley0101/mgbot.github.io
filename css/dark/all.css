@@ -29,6 +29,10 @@ html, body, input, textarea, select, button {
     color: #e8e6e3 !important;
 }
 
+hr {
+    border-color: #262728;
+}
+
 footer {
     background-color: rgb(11, 12, 13) !important;
     color: rgb(232, 230, 227) !important;
@@ -77,6 +81,15 @@ footer {
 
 #banner3 h1 {
     color: #ffffff !important;
+}
+
+.footer1 a {
+    color: #7a7a7a !important;
+    text-decoration: none;
+}
+
+.footer1 a:hover {
+    color: #bbb !important;
 }
 
 /* 20210724 Dev 페이지 아이콘 픽스-SSKATE */
