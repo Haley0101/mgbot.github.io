@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="banner_background">
-                    <video autoplay muted loop><source src="video/banner1.mp4" type="video/mp4"/></video>
+                    <video autoplay muted loop><source src="video/banner1.webm" type="video/mp4"/></video>
                 </div>
             </div>
         </div>
