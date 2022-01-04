@@ -30,7 +30,6 @@
             </div>
         </div>
 
-        <div id="copyright">Copyright ⓒ 2021 by HCT</div>
+        <div id="copyright">Copyright ⓒ 2022 by HCT</div>
     </footer>
-    
 </template>
