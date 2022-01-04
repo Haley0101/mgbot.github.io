@@ -1,5 +1,4 @@
 /* 기본설정 */
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 @font-face {
@@ -20,6 +19,7 @@
     background-color: #ffffff;
     margin: 0px;
     font-family: 'Noto Sans KR', sans-serif;
+    transition: background-color 0.4s;
 }
 
   html {
