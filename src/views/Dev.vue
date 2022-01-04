@@ -32,29 +32,6 @@
 
                     <div class="profile1">
                         <div class="profile2">
-                            <img class="profile3" src='https://happycoding.team/static/assets/img/members/ugi.png'>
-                        </div>
-                    </div>
-
-                    <div class="info">
-                        <h1 class="name">우기</h1>
-                        <a class="discord_username">우기#0050</a>
-                        <a href="https://github.com/WooGy-U"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
-                    </div>
-
-                    <div class="description">
-                        안녕하세요. 미니게임 봇 디렉터 우기 입니다.
-                    </div>
-                </section>
-            </div>
-
-            <div class="dev">
-                <section class="box1">
-                    <div class="back_ground">
-                    </div>
-
-                    <div class="profile1">
-                        <div class="profile2">
                             <img class="profile3" src='https://happycoding.team/static/assets/img/members/junyeong.gif'>
                         </div>
                     </div>
@@ -109,8 +86,11 @@
                     <div class="info">
                         <h1 class="name">SSKATE</h1>
                         <a class="discord_username">SSKATE#9781</a>
-                        <a href="https://github.com/kms0219kms"><i class="fab fa-github"></i><!--<img class="icon" src="img/github.svg">--></a>
-                        <a href="https://allpgs.kro.kr"><i class="fas fa-globe"></i><!--<img class="icon" src="img/globe.svg">--></a>
+                        <a href="https://github.com/kms0219kms"><i class="fab fa-github"></i></a>
+                        <a href="https://sskate.me/"><i class="fas fa-globe"></i></a>
+                        <a href="https://twitter.com/kms0219kms"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/kms0219kms"><i class="fab fa-instagram"></i></a>
+                        <a href="https://vki.kr/sskate"><i class="fab fa-youtube"></i></a>
                     </div>
 
                     <div class="description">
