@@ -1,5 +1,5 @@
 <template>
-    <div class="content" id="path_note">
+    <div class="content">
         <section class="box1">
             <div class="path_note_header">
                 <div class="user_icon_border"><img class="user_icon" src="https://happycoding.team/static/assets/img/members/Haley.png"></div>
