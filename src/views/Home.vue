@@ -59,7 +59,7 @@
 
                 <div>
                     <h1>오류가 발생하거나 건의사항 문의시,<br>서포트서버에서 연락주시기 바랍니다.</h1>
-                    <a class="button" href="">서포트서버</a>
+                    <a class="button" href="https://discord.gg/yVnzGcm6Tu">서포트서버</a>
                 </div>
             </div>
         </div>
