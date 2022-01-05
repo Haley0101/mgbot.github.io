@@ -120,7 +120,7 @@ footer {
       display: flex;
       justify-content: space-between;
       margin-bottom: 40px;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 700;
     }
 
@@ -128,12 +128,8 @@ footer {
       display: block;
     }
 
-    .other a {
-      font-size: 20px;
-    }
-
-    .footMenu a {
-      font-size: 20px;
+    .other a, .footMenu a {
+      font-size: 18px;
     }
 
     #copyright {
