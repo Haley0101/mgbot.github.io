@@ -33,3 +33,6 @@
         <div id="copyright">Copyright ⓒ 2022 by HCT</div>
     </footer>
 </template>
+
+
+<style src="../../public/css/footer.css"></style>

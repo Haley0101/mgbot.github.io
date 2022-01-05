@@ -7,7 +7,6 @@
     <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
     <title>미니게임 봇</title>
     <link rel="favicon" href="./favicon.ico">
-    <link rel='stylesheet' href='<%= BASE_URL %>css/light/main.css' id='lightcss'>
     <link rel='stylesheet' href='' id='darkcss'>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" />
@@ -30,7 +29,7 @@
                 $( "#darkBtn" ).hide();
                 $( "#lightBtn" ).show();
               var objLink = document.getElementById( "darkcss" );
-              objLink.href = "css/dark/all.css";  
+              objLink.href = "css/darkMode.css";  
             } else if (localStorage.getItem('Dark') == '1') {
               localStorage.removeItem('Dark')
               localStorage.setItem('Dark', '0')

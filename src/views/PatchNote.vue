@@ -20,3 +20,5 @@
         </section>
     </div>
 </template>
+
+<style scoped src="../../public/css/page/patchNote.css"></style>

@@ -36,6 +36,8 @@
     </header>
 </template>
 
+<style src="../../public/css/header.css"></style>
+
 <script>
 export default {
     name: 'App',

@@ -109,3 +109,5 @@
         </div>
     </div>
 </template>
+
+<style scoped src="../../public/css/page/dev.css"></style>
