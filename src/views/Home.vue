@@ -66,12 +66,12 @@
     </div>
 </template>
 
+<style scoped src="../../public/css/page/banner.css"></style>
+<style scoped src="../../public/css/rollingNumber.css"></style>
+
 <script>
 // import axios from 'axios';
-import num_roll from '../../public/js/rollingNumber.js';
-// import fullpage from '../../public/js/fullpage.js';
-
-// new fullpage('#fullpage', {});
+// import num_roll from '../../public/js/rollingNumber.js';
 
 export default {
     name: 'App',
@@ -97,11 +97,11 @@ export default {
     }
 }
 
-// function minigameMove(LR) {
-//     if(LR == 0) {
+/*function minigameMove(LR) {
+    if(LR == 0) {
         
-//     } else {
+    } else {
 
-//     }
-// }
+    }
+}*/
 </script>
