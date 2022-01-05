@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/common.css"
   },
   {
-    "revision": "9cb16c9ade94bbec0f7ee83710b95349",
+    "revision": "005ff4e92dba7b5bc12c273f97c50ae3",
     "url": "/css/light/contents.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/light/etc.css"
   },
   {
-    "revision": "d9a5a0404a7634e98b14b6afade5dc61",
+    "revision": "c2e37f4e81fa6e407ee3c8d545631d07",
     "url": "/css/light/footer.css"
   },
   {

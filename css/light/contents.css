@@ -12,6 +12,12 @@
     display: flex;
     gap: 70px;
   }
+
+  @media all and (max-width: 1200px) {
+    .container {
+      flex-direction: column;
+    }
+  }
   
   .back_ground {
     height: 100px;
@@ -29,7 +35,8 @@
   }
 
   #devHr {
-    width: 750px;
+    width: 70%;
+    max-width: 750px;
     margin: 60px 0px;
   }
 
@@ -40,6 +47,7 @@
 
   .description {
     padding: 25px 20px;
+    word-break: keep-all;
   }
   
   #path_note {
@@ -55,6 +63,12 @@
     width: 400px;
     height: fit-content;
     overflow: hidden;
+  }
+
+  @media all and (max-width: 720px) {
+    .box1 {
+      width: 300px;
+    }
   }
 
   .profile1 {
