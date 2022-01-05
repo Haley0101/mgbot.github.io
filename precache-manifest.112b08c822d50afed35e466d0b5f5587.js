@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/sskate.webm"
   },
   {
-    "revision": "b6b16a02e0965408ea7a09bd6b2bb373",
+    "revision": "39f1763dd1baed9c9d279a43cbfda0c3",
     "url": "/index.html"
   },
   {
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.5f44c1c8.js"
   },
   {
-    "revision": "7b8446873c51a9813498",
-    "url": "/js/app.43f73a00.js"
+    "revision": "d70b6b1914bfd09b98b0",
+    "url": "/js/app.bd56d8df.js"
   },
   {
     "revision": "28f99c2b0f85cd14d55a",
