@@ -7,7 +7,7 @@
                     <div class="banner_content"><a class="typing">MG봇으로 디스코드 서버 내에서<br>재미있고 다양한 미니게임을 즐겨보세요.</a></div>
                     <div class="buttons">
                         <a class="button" href="https://discord.com/oauth2/authorize?client_id=856090100458979379&permissions=8&scope=bot">봇 초대하기</a>
-                        <a class="button" href="https://discord.gg/uWAnfpXbhd">서포트서버</a>
+                        <a class="button" href="https://discord.gg/yVnzGcm6Tu">서포트서버</a>
                     </div>
                 </div>
                 <div class="banner_background">
