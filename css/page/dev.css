@@ -1,191 +1,191 @@
 /* 콘텐츠 */
 .content {
-    padding: 140px 0px;
-    min-height: calc( 100vh - 200px - 220px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  padding: 140px 0px;
+  min-height: calc( 100vh - 200px - 220px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.container {
+  display: flex;
+  gap: 70px;
+}
+
+@media all and (max-width: 1200px) {
   .container {
-    display: flex;
-    gap: 70px;
+    flex-direction: column;
   }
+}
 
-  @media all and (max-width: 1200px) {
-    .container {
-      flex-direction: column;
-    }
-  }
-  
-  .back_ground {
-    height: 100px;
-    overflow: hidden;
-    display: flex;
-    background-color: #333333;
-    align-items: center;
-    justify-content: center;
-  }
+.back_ground {
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  background-color: #333333;
+  align-items: center;
+  justify-content: center;
+}
 
-  .back_ground img {
-    z-index: 1;
-    width: 100%;
-    overflow: hidden;
-  }
+.back_ground img {
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+}
 
-  #devHr {
-    width: 70%;
-    max-width: 750px;
-    margin: 60px 0px;
-  }
+#devHr {
+  width: 70%;
+  max-width: 750px;
+  margin: 60px 0px;
+}
 
-  .dev {
-    display: flex;
-    justify-content: center;
-  }
+.dev {
+  display: flex;
+  justify-content: center;
+}
 
-  .description {
-    padding: 25px 20px;
-    word-break: keep-all;
-  }
-  
-  #path_note {
-    display: flex;
-    justify-content: center;
-  }
-  
+.description {
+  padding: 25px 20px;
+  word-break: keep-all;
+}
+
+#path_note {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
+  text-align: center;
+  width: 400px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+@media all and (max-width: 720px) {
   .box1 {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
-    text-align: center;
-    width: 400px;
-    height: fit-content;
-    overflow: hidden;
+    width: 300px;
   }
+}
 
-  @media all and (max-width: 720px) {
-    .box1 {
-      width: 300px;
-    }
-  }
+.profile1 {
+  position: absolute;
+}
 
-  .profile1 {
-    position: absolute;
-  }
+.profile3 {
+  z-index: 1;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  bottom: 40px;
+  left: 30px;
+  filter: drop-shadow(0px 0px 5px #0009);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
 
-  .profile3 {
-    z-index: 1;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    bottom: 40px;
-    left: 30px;
-    filter: drop-shadow(0px 0px 5px #0009);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-  }
-  
-  .info {
-    padding: 10px 20px 0px 120px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
+.info {
+  padding: 10px 20px 0px 120px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
 
-  .links {
-    margin: 0px 30px 0px auto;
-    width: fit-content;
-  }
+.links {
+  margin: 0px 30px 0px auto;
+  width: fit-content;
+}
 
-  .links a i {
-    padding: 2px 4px;
-    color: #555;
-  }
+.links a i {
+  padding: 2px 4px;
+  color: #555;
+}
 
-  .links a i:hover {
-    color: #000;
-  }
-  
-  .icon,
-  .fab,
-  .fas {
-    width: 15px;
-    color: #000000;
-  }
+.links a i:hover {
+  color: #000;
+}
 
-  .name {
-    font-size: 22px;
-    padding: 0px 7px 0px 0px;
-    margin: 0px;
-  }
-  
-  .discord_username {
-    color: #5865F2;
-    font-size: 11px !important;
-    margin-right: auto;
-  }
+.icon,
+.fab,
+.fas {
+  width: 15px;
+  color: #000000;
+}
 
-  .path_note_header {
-    display: flex;
-    align-items: center;
-    padding: 5px 30px;
-    height: 30px;
-  }
+.name {
+  font-size: 22px;
+  padding: 0px 7px 0px 0px;
+  margin: 0px;
+}
 
-  .path_note_header a {
-    padding: 0px;
-  }
+.discord_username {
+  color: #5865F2;
+  font-size: 11px !important;
+  margin-right: auto;
+}
 
-  .path_note_content {
-    padding: 15px 30px;
-  }
+.path_note_header {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  height: 30px;
+}
 
-  .path_note_footer {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    padding: 5px 30px;
-    font-size: 12px;
-  }
-  
-  .like {
-    font-size: 20px;
-    margin-top: 3px;
-    padding-right: 5px;
-  }
-  .like_count {
-    margin-right: auto;
-    padding: 0px;
-  }
+.path_note_header a {
+  padding: 0px;
+}
 
-  .user_icon {
-    width: 100%;
-  }
+.path_note_content {
+  padding: 15px 30px;
+}
 
-  .user_icon_border {
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background-color: #000000;
-    border:  2px solid #000000 ;
-    overflow: hidden;
-    display: flex;
-    position: relative;
-    justify-content: center;
-  }
+.path_note_footer {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  font-size: 12px;
+}
 
-  .user_name {
-    margin-right: auto;
-    font-size: 12px;
-  }
+.like {
+  font-size: 20px;
+  margin-top: 3px;
+  padding-right: 5px;
+}
+.like_count {
+  margin-right: auto;
+  padding: 0px;
+}
 
-  .version {
-    font-size: 12px;
-  }
+.user_icon {
+  width: 100%;
+}
+
+.user_icon_border {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #000000;
+  border:  2px solid #000000 ;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.user_name {
+  margin-right: auto;
+  font-size: 12px;
+}
+
+.version {
+  font-size: 12px;
+}

@@ -1,0 +1,334 @@
+/* 배너 */
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vw;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 22px -4px #000000;
+  background-color: #131313;
+}
+.button {
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px -4px #000000;
+  color: #ffffff;
+  background-color: #050505;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: all 0.1s;
+}
+@media all and (max-width: 830px) { 
+  .button {
+    height: 50px;
+  }
+}
+@media all and (max-width: 460px) { 
+  .button {
+    font-size: 13px;
+  }
+}
+
+section {
+  width: 1000px;
+  height: 100vh;
+  display: flex;
+}
+@media all and (max-width: 1200px) { 
+  section {
+    width: 850px;
+  }
+}
+@media all and (max-width: 1020px) { 
+  section {
+    width: 750px;
+  }
+}
+@media all and (max-width: 830px) { 
+  section {
+    width: 100%;
+  }
+}
+@media all and (max-width: 460px) { 
+  section {
+    width: 80%;
+  }
+}
+
+#section1 {
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+@media all and (max-width: 830px) { 
+  #section1 {
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media all and (max-width: 460px) { 
+  #section1 {
+    gap: 20px;
+  }
+}
+
+.section1_left {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media all and (max-width: 460px) { 
+  .section1_left {
+    width: 100%;
+    gap: 15px;
+  }
+}
+
+.section1_right {
+  position: relative;
+  overflow: hidden;
+  width: 470px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #373940;
+  box-shadow: 0px 0px 30px -4px #000000;
+}
+@media all and (max-width: 1200px) { 
+  .section1_right {
+    width: 420px;
+    height: 250px;
+  }
+}
+@media all and (max-width: 1020px) { 
+  .section1_right {
+    width: 350px;
+    height: 220px;
+  }
+}
+@media all and (max-width: 830px) { 
+  .section1_right {
+    height: 40vh;
+  }
+}
+@media all and (max-width: 460px) { 
+  .section1_right {
+    width: 100%;
+  }
+}
+
+.section1_right video {
+  position: absolute;
+  bottom: 0px;
+  height: 150%;
+}
+
+#section1 h1 {
+  font-size: 50px;
+  margin: 0px;
+  color: #000000;
+}
+@media all and (max-width: 1020px) { 
+  #section1 h1 {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 460px) { 
+  #section1 h1 {
+    font-size: 10vw;
+  }
+}
+
+#section1 h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #505050;
+  margin: 0px;
+}
+@media all and (max-width: 1020px) { 
+  #section1 h3 {
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 460px) { 
+  #section1 h3 {
+    font-size: 4vw;
+  }
+}
+
+.section1_btns {
+  display: flex;
+  gap: 18px;
+}
+@media all and (max-width: 460px) { 
+  .section1_btns {
+    width: 100%;
+    gap: 6%;
+  }
+  .section1_btns a {
+    width: 100%;
+    flex-shrink: 1;
+  }
+}
+
+#section2 {
+  justify-content: center;
+  flex-direction: column !important;
+  gap: 40px;
+}
+@media all and (max-width: 1020px) { 
+  #section2 {
+    gap: 20px;
+  }
+}
+
+#section2 h1 {
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px 60px;
+  color: #000000;
+}
+@media all and (max-width: 1020px) { 
+  #section2 h1 {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 650px) { 
+  #section2 h1 {
+    font-size: 5vw;
+  }
+}
+@media all and (max-width: 460px) { 
+  #section2 h1 {
+    padding: 0px;
+  }
+}
+
+.section2_games {
+  gap: 35px;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  padding: 20px 60px;
+}
+@media all and (max-width: 1020px) { 
+  .section2_games {
+    padding: 20px 20px;
+    margin: 0px 40px;
+  }
+}
+@media all and (max-width: 460px) { 
+  .section2_games {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.section2_games div {
+  box-shadow: 0px 0px 20px -5px #000000;
+  background: #050505;
+  border-radius: 20px;
+  height: 100%;
+  width: 70%;
+  flex-shrink: 0;
+}
+
+.section2_gameInfo {
+  padding: 0px 60px;
+}
+@media all and (max-width: 460px) { 
+  .section2_gameInfo {
+    padding: 0px;
+  }
+}
+
+.section2_gameInfo h3 {
+  margin: 0px 0px 10px 0px;
+}
+
+.section2_Bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+/* .arrowLeft, .arrowRight {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 8px #0006;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowLeft svg, .arrowRight svg {
+  height: 8px;
+} */
+
+.section2_gameDots {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.section2_gameDots div {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: 0px 0px 6px #0004;
+}
+
+.dotPoint {
+  background: #fff !important;
+  border: 1px solid #ccc !important;
+}
+
+#section3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 140px;
+}
+
+#section3 h1 {
+  font-size: 25px;
+  margin: 0px;
+}
+@media all and (max-width: 1020px) { 
+  #section3 h1 {
+    font-size: 22px;
+  }
+}
+@media all and (max-width: 460px) { 
+  #section3 h1 {
+    font-size: 20px;
+  }
+}
+
+#section3 div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-break: keep-all;
+  padding: 0px 60px;
+}
+@media all and (max-width: 460px) { 
+  #section3 div {
+    padding: 0px;
+    gap: 15px;
+    flex-direction: column;
+  }
+}
