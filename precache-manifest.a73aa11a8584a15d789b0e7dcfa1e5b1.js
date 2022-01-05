@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/PatchNote.7cb304df.css"
   },
   {
-    "revision": "fdef338b0a839320ede9",
-    "url": "/css/app.159e301d.css"
+    "revision": "bdaa85bed4b6d6fae100",
+    "url": "/css/app.94891027.css"
   },
   {
     "revision": "f486a8949b2beb099c9c6768691e5864",
@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/page/patchNote.css"
   },
   {
-    "revision": "a22b7aafdf5a4005b8cd0bf7cd1653d6",
+    "revision": "5a2e4a2f51f89adbf7b1ddd8c27c8057",
     "url": "/css/rollingNumber.css"
   },
   {
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/sskate.webm"
   },
   {
-    "revision": "e8f23646bef4e7727c670966ff83b7e1",
+    "revision": "26dab381adf9fe8ad8d90c690f5af176",
     "url": "/index.html"
   },
   {
@@ -112,7 +112,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.1e311f08.js"
   },
   {
-    "revision": "fdef338b0a839320ede9",
+    "revision": "bdaa85bed4b6d6fae100",
     "url": "/js/app.b8f50bf2.js"
   },
   {
