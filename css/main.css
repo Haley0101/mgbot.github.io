@@ -55,3 +55,16 @@
   #lightBtn {
       display: none;
   }
+  
+  .active {
+    background-color: #858585;
+  }
+  
+  .ui{
+    display: inline-block;
+  }
+  
+  hr {
+    margin: 0px;
+    border-color: #fff5;
+  }
