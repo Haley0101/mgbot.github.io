@@ -12,27 +12,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/PatchNote.811cff5e.css"
   },
   {
-    "revision": "9854a5fcead8cea0caf2",
-    "url": "/css/app.7453594a.css"
+    "revision": "4abc96bdec6f7ea5a3c8",
+    "url": "/css/app.d014da2c.css"
   },
   {
-    "revision": "f486a8949b2beb099c9c6768691e5864",
+    "revision": "994a8a3542047d2112d5d4bedac220fc",
     "url": "/css/crossbrowser.css"
   },
   {
-    "revision": "e7452d42c8936a4c7052189dd22f2e0d",
+    "revision": "2555175c867732009383c127f79fa452",
     "url": "/css/darkMode.css"
   },
   {
-    "revision": "eb22293bc55028be0e208c1f2905601a",
+    "revision": "0787f3e339c45e92d42c68cf72eac73b",
     "url": "/css/footer.css"
   },
   {
-    "revision": "c19c39195e874fa061c07e26084f5e8c",
+    "revision": "30b5ef2235a92035bec2f9e2e220cded",
     "url": "/css/header.css"
   },
   {
-    "revision": "b10c2c1713dc37e570842dc1f0404af7",
+    "revision": "3f3353797e46dc28dcd6d07aeb8c4f17",
     "url": "/css/main.css"
   },
   {
@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/light_mode.svg"
   },
   {
-    "revision": "a54d7f48dd5744a07a3c51930e900026",
+    "revision": "9eaa56489937de0705ca352a23509198",
     "url": "/img/logo.svg"
   },
   {
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/sskate.webm"
   },
   {
-    "revision": "334822a2abc0cb5f2226f14b76e2e245",
+    "revision": "71dbf87c11328993d70ec2dfb17f0a41",
     "url": "/index.html"
   },
   {
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/PatchNote.a324a1b7.js"
   },
   {
-    "revision": "9854a5fcead8cea0caf2",
-    "url": "/js/app.7191db8b.js"
+    "revision": "4abc96bdec6f7ea5a3c8",
+    "url": "/js/app.bf77136d.js"
   },
   {
     "revision": "6b18210533974761fc72",
@@ -128,7 +128,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/js.js"
   },
   {
-    "revision": "ebb5a88fc108c12aaea55097e271da81",
+    "revision": "c18984d457c72b94780bf006b4e213de",
     "url": "/js/rollingNumber.js"
   },
   {

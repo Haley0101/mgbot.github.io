@@ -1,142 +1,137 @@
 /* 푸터 */
+:root {
+  --color_link: #7a7a7a;
+  --color_link_select: #bbb;
+}
+
 footer {
-    background-color: #0f0f0f;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #0f0f0f;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer2 {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 1000px;
+}
+@media all and (max-width: 1080px) { 
+  .footer2 {
     width: 100%;
   }
-  
-  .footer3 {
+}
+@media all and (max-width: 720px) { 
+  .footer2 {
     padding: 40px 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 1000px;
+    gap: 15px;
   }
+}
 
-  @media all and (max-width: 1080px) { 
-    .footer3 {
-      width: 100%;
-    }
-  }
-
-  @media all and (max-width: 720px) { 
-    .footer3 {
-      padding: 40px 0px;
-      gap: 15px;
-    }
-  }
-  
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media all and (max-width: 1080px) { 
   .footer1 {
+    margin: 0px 40px;
+  }
+}
+@media all and (max-width: 720px) { 
+  .footer1 {
+    flex-direction: column;
+    align-items: normal;
+  }
+}
+
+.footer1 a:hover {
+  color: var(--color_link_select);
+}
+.footer1 a {
+  color: var(--color_link);
+  text-decoration: none;
+}
+
+.foot_about svg {
+  width: auto;
+  height: 35px;
+  padding-right: 10px;
+}
+.foot_about svg g {
+  fill: var(--color_link);
+}
+@media all and (max-width: 720px) { 
+  .foot_about svg {
+    height: 30px;
+  }
+}
+
+.copyright {
+  display: block;
+  color: var(--color_link);
+}
+@media all and (max-width: 720px) { 
+  .copyright {
+    display: none;
+  }
+}
+
+.foot_about {
+  display: flex;
+  align-items: center;
+}
+@media all and (max-width: 720px) {
+  .foot_about {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  }
-
-  @media all and (max-width: 1080px) { 
-    .footer1 {
-      margin: 0px 40px;
-    }
-  }
-
-  @media all and (max-width: 720px) { 
-    .footer1 {
-      flex-direction: column;
-      align-items: normal;
-    }
-  }
-  
-  .footer1 a {
-    color: #7a7a7a;
-    text-decoration: none;
-  }
-
-  .footer1 a:hover {
-    color: #bbb;
-  }
-  
-  .logo4 {
-    height: 35px;
-    padding-right: 10px;
-    opacity: 0.5;
-  }
-
-  @media all and (max-width: 720px) { 
-    .logo4 {
-      height: 30px;
-    }
-  }
-
-  .copyright {
-    display: block;
-    color: #7a7a7a;
-  }
-
-  @media all and (max-width: 720px) { 
-    .copyright {
-      display: none;
-    }
-  }
-
-  .footAbout {
-    display: flex;
-    align-items: center;
-  }
-
-  .footMenu, .other {
-    display: flex;
-    align-items: center;
-    flex-wrap : wrap;
-    line-height: 40px;
-  }
-
-  .footMenu a {
-    padding: 0px 7px;
-    font-size: 15px;
-  }
-
-  .other a {
-    font-size: 15px;
-    padding: 0px 7px;
-  }
-
-  #menu, #other {
-    display: none;
+    margin-bottom: 25px;
     font-size: 18px;
-    color: #eee;
-    margin-bottom: 5px;
+    font-weight: 700;
   }
+}
 
+.footMenu, .other {
+  display: flex;
+  align-items: center;
+  flex-wrap : wrap;
+  line-height: 40px;
+}
+
+.other a, .footMenu a {
+  padding: 0px 7px;
+  font-size: 15px;
+}
+@media all and (max-width: 720px) {
+  .other a, .footMenu a {
+    font-size: 15px;
+  }
+}
+
+.mobileMenu {
+  display: none;
+  font-size: 18px;
+  color: #eee;
+  margin-bottom: 5px;
+}
+@media all and (max-width: 720px) {
+  .mobileMenu {
+    font-size: 15px;
+    display: block;
+  }
+}
+
+#copyright {
+  display: none;
+  font-size: 12px;
+  color: #5c5c5c;
+}
+@media all and (max-width: 720px) {
   #copyright {
-    display: none;
-    font-size: 12px;
-    color: #5c5c5c;
+    margin-bottom: 45px;
+    display: block;
   }
-
-  @media all and (max-width: 720px) {
-    .footAbout {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 25px;
-      font-size: 18px;
-      font-weight: 700;
-    }
-
-    #menu, #other, #copyright {
-      display: block;
-    }
-
-    #menu, #other {
-      font-size: 15px;
-    }
-
-    .other a, .footMenu a {
-      font-size: 15px;
-    }
-
-    #copyright {
-      margin-bottom: 45px;
-    }
-  }
+}
