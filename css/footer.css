@@ -25,7 +25,7 @@ footer {
   @media all and (max-width: 720px) { 
     .footer3 {
       padding: 40px 0px;
-      gap: 20px;
+      gap: 15px;
     }
   }
   
@@ -65,7 +65,7 @@ footer {
 
   @media all and (max-width: 720px) { 
     .logo4 {
-      height: 40px;
+      height: 30px;
     }
   }
 
@@ -89,7 +89,7 @@ footer {
     display: flex;
     align-items: center;
     flex-wrap : wrap;
-    line-height: 50px;
+    line-height: 40px;
   }
 
   .footMenu a {
@@ -106,7 +106,7 @@ footer {
     display: none;
     font-size: 18px;
     color: #eee;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   #copyright {
@@ -119,8 +119,8 @@ footer {
     .footAbout {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 40px;
-      font-size: 20px;
+      margin-bottom: 25px;
+      font-size: 18px;
       font-weight: 700;
     }
 
@@ -128,8 +128,12 @@ footer {
       display: block;
     }
 
+    #menu, #other {
+      font-size: 15px;
+    }
+
     .other a, .footMenu a {
-      font-size: 18px;
+      font-size: 15px;
     }
 
     #copyright {
