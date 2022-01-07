@@ -3,9 +3,6 @@ const inputstr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 export default function num_roll(count, str) {
     const target = document.getElementById("roll_" + count);
     const childCount = target.childElementCount;
-    let text = document.createElement("a");
-    text.classList.add("roll");
-    console.log(text.clientHeight);
     const textHeight = parseInt(getComputedStyle(target).fontSize.replace("px", ""));
 
     if(str.toString().length > childCount) {
