@@ -4,16 +4,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "f99133c626120f876383",
-    "url": "/css/Dev.5d0f614b.css"
+    "revision": "ac3b49434aa772235ae8",
+    "url": "/css/Dev.34536e7e.css"
   },
   {
-    "revision": "806e2e6a1da739ae95da",
-    "url": "/css/PatchNote.811cff5e.css"
+    "revision": "52c7bc54ddc6da8ae9be",
+    "url": "/css/PatchNote.1a94ca6d.css"
   },
   {
-    "revision": "4abc96bdec6f7ea5a3c8",
-    "url": "/css/app.d014da2c.css"
+    "revision": "46e3c923d601f084868b",
+    "url": "/css/app.a2a9b63f.css"
   },
   {
     "revision": "994a8a3542047d2112d5d4bedac220fc",
@@ -24,19 +24,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/darkMode.css"
   },
   {
-    "revision": "0787f3e339c45e92d42c68cf72eac73b",
+    "revision": "079f88db4644e13b28e46d4fe87ea4e3",
     "url": "/css/footer.css"
   },
   {
-    "revision": "30b5ef2235a92035bec2f9e2e220cded",
+    "revision": "265faacf1fb3cfa47685bc6fdf4057ca",
     "url": "/css/header.css"
   },
   {
-    "revision": "3f3353797e46dc28dcd6d07aeb8c4f17",
+    "revision": "a718c9e19d2415ab671aefbe884f6e56",
     "url": "/css/main.css"
   },
   {
-    "revision": "ea70c9887b08101b929398bdbea8d085",
+    "revision": "154265f87294b6d99d6f362e326ad630",
     "url": "/css/page/dev.css"
   },
   {
@@ -44,15 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/page/help.css"
   },
   {
-    "revision": "57f74d003f664a314432a312f10d1e02",
+    "revision": "cb4066ccbc48ab4005860f9eed7dcaf3",
     "url": "/css/page/home.css"
   },
   {
-    "revision": "3a148e71290d06b56864bd234e939a1e",
+    "revision": "72ef258eb57c1aecde78cc550b2a6779",
     "url": "/css/page/patchNote.css"
   },
   {
-    "revision": "5a2e4a2f51f89adbf7b1ddd8c27c8057",
+    "revision": "1c2a14edf79f5823afe845c6c6908271",
     "url": "/css/rollingNumber.css"
   },
   {
@@ -96,28 +96,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/sskate.webm"
   },
   {
-    "revision": "71dbf87c11328993d70ec2dfb17f0a41",
+    "revision": "a3bc0bc25e0943ff9db7564e26a16576",
     "url": "/index.html"
   },
   {
-    "revision": "f99133c626120f876383",
-    "url": "/js/Dev.6ef5ea2e.js"
+    "revision": "ac3b49434aa772235ae8",
+    "url": "/js/Dev.239593c1.js"
   },
   {
     "revision": "9492bcc7e8d6cc30621a",
     "url": "/js/Help.854f9cfc.js"
   },
   {
-    "revision": "806e2e6a1da739ae95da",
-    "url": "/js/PatchNote.a324a1b7.js"
+    "revision": "52c7bc54ddc6da8ae9be",
+    "url": "/js/PatchNote.f1a579e2.js"
   },
   {
-    "revision": "4abc96bdec6f7ea5a3c8",
-    "url": "/js/app.bf77136d.js"
+    "revision": "46e3c923d601f084868b",
+    "url": "/js/app.e49000b2.js"
   },
   {
-    "revision": "6b18210533974761fc72",
-    "url": "/js/chunk-vendors.3187b485.js"
+    "revision": "3dff176aad38c5b765ab",
+    "url": "/js/chunk-vendors.06dc2796.js"
   },
   {
     "revision": "8bec0cc5bf441dbd443ca0cc9d3109cb",

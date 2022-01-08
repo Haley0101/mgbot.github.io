@@ -24,6 +24,10 @@ main {
   align-items: center;
   flex-shrink: 0;
   transition: all 0.1s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 @media all and (max-width: 830px) { 
   .button {
