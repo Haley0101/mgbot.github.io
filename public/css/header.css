@@ -8,7 +8,7 @@
   width: 100%;
   padding-bottom: 60px;
   background-color: #0f0f0f;
-  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
   position: absolute;
 }
 @media all and (max-width: 720px) { 

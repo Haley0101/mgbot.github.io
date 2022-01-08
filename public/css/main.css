@@ -5,15 +5,19 @@
 
 @font-face { font-family: 'Cafe24SsurroundAir'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff'); font-weight: normal; font-style: normal; }
 
-body {
-  background-color: #ffffff;
+* {
   margin: 0px;
+  padding: 0px;
+  -webkit-tap-highlight-color : #0000;
+}
+
+body {
+  background-color: #fff;
   font-family: 'Noto Sans KR', sans-serif;
   transition: background-color 0.4s;
 }
 
 hr {
-  margin: 0px;
   border-color: #fff5;
 }
 
@@ -23,6 +27,13 @@ hr {
 
 #lightBtn {
     display: none;
+}
+
+.noDrag {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .active {

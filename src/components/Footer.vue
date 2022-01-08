@@ -1,5 +1,5 @@
 <template>
-<footer>
+<footer class="noDrag">
 <div class="footer2">
 <div class="footer1">
     <div class="foot_about">
