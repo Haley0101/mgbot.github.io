@@ -1,5 +1,5 @@
 /* 콘텐츠 */
-.content {
+main {
   padding: 140px 0px;
   min-height: calc( 100vh - 200px - 220px);
   display: flex;
@@ -19,22 +19,26 @@
   }
 }
 
-.back_ground {
+.backGround {
   height: 100px;
   overflow: hidden;
   display: flex;
   background-color: #333333;
   align-items: center;
   justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.back_ground img {
+.backGround img {
   z-index: 1;
   width: 100%;
   overflow: hidden;
 }
 
-#devHr {
+hr {
   width: 70%;
   max-width: 750px;
   margin: 60px 0px;
@@ -75,7 +79,7 @@
   position: absolute;
 }
 
-.profile3 {
+.profile1 video, .profile1 img {
   z-index: 1;
   border-radius: 50%;
   width: 80px;
@@ -88,6 +92,10 @@
   align-items: center;
   justify-content: center;
   object-fit: cover;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .info {
@@ -99,17 +107,35 @@
 }
 
 .links {
+  display: flex;
   margin: 0px 30px 0px auto;
   width: fit-content;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.links a i {
+.links i:hover {
+  color: #000;
+}
+.links i {
   padding: 2px 4px;
   color: #555;
 }
 
-.links a i:hover {
-  color: #000;
+.links svg:hover g {
+  fill: #000;
+}
+.links g {
+  fill: #555;
+}
+
+.links svg {
+  padding: 6px 4px 0px 4px;
+  width: 15px;
+  height: auto;
+  display: inline-block;
 }
 
 .icon,
