@@ -81,7 +81,6 @@ header {
   display: flex;
   align-items: center;
   padding: 0px 10px;
-  text-decoration: none;
   color: var(--header_link);
 }
 @media all and (max-width: 720px) { 
@@ -109,6 +108,7 @@ header {
 .RightMenu img {
   margin-left: 0px;
   height: 23px;
+  cursor: pointer;
 }
 @media all and (max-width: 720px) { 
   .RightMenu img {
@@ -169,7 +169,6 @@ header {
 
 .mobMenu_links a {
   color: var(--header_link);
-  text-decoration: none;
   font-size: 18px;
   padding: 15px 50px;
 }

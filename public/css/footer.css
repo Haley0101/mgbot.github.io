@@ -48,7 +48,6 @@ footer {
 }
 .footer1 a {
   color: var(--bottom_link);
-  text-decoration: none;
 }
 
 .foot_about svg {

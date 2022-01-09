@@ -8,6 +8,7 @@
 :root {
   --color_white: #fff;
   --color_black: #000;
+  --color_link: rgb(30, 114, 241);
   --header_link: #fff;
   --header_link_select: #dfdfdf;
   --bottom_link: #7a7a7a;
@@ -24,10 +25,11 @@ body {
   background-color: var(--color_white);
   font-family: 'Noto Sans KR', sans-serif;
   transition: background-color 0.4s;
+  cursor: default;
 }
 
-hr {
-  border-color: #fff5;
+a {
+  text-decoration: none;
 }
 
 #darkBtn {
