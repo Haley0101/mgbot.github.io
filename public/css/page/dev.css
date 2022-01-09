@@ -42,11 +42,7 @@ hr {
   width: 70%;
   max-width: 750px;
   margin: 60px 0px;
-}
-
-.dev {
-  display: flex;
-  justify-content: center;
+  border-color: #0005;
 }
 
 .description {
@@ -59,7 +55,7 @@ hr {
   justify-content: center;
 }
 
-.box1 {
+section {
   background-color: var(--color_white);
   border-radius: 10px;
   box-shadow: rgba(105, 105, 105, 0.4) 0px 0px 25px 0px;
@@ -70,7 +66,7 @@ hr {
 }
 
 @media all and (max-width: 720px) {
-  .box1 {
+  section {
     width: 300px;
   }
 }
