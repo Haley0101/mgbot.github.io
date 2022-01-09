@@ -1,9 +1,4 @@
 /* 푸터 */
-:root {
-  --color_link: #7a7a7a;
-  --color_link_select: #bbb;
-}
-
 footer {
   background-color: #0f0f0f;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
@@ -49,10 +44,10 @@ footer {
 }
 
 .footer1 a:hover {
-  color: var(--color_link_select);
+  color: var(--bottom_link_select);
 }
 .footer1 a {
-  color: var(--color_link);
+  color: var(--bottom_link);
   text-decoration: none;
 }
 
@@ -62,7 +57,7 @@ footer {
   padding-right: 10px;
 }
 .foot_about svg g {
-  fill: var(--color_link);
+  fill: var(--bottom_link);
 }
 @media all and (max-width: 720px) { 
   .foot_about svg {
@@ -72,7 +67,7 @@ footer {
 
 .copyright {
   display: block;
-  color: var(--color_link);
+  color: var(--bottom_link);
 }
 @media all and (max-width: 720px) { 
   .copyright {
