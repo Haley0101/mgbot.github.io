@@ -1,8 +1,14 @@
 <template>
-<main>
 <div class="miniNav">
-    <p>2021/01/01</p>
-    <div class="miniNav_nav"></div>
+    <div class="miniNav_nav">
+        <a class="nav_btn" id="nav_previous">&lt;</a>
+        <a class="nav_highlight">1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>5</a>
+        <a class="nav_btn" id="nav_next">&gt;</a>
+    </div>
     <select>
         <option selected disabled>배열</option>
         <option value="versionest">버전순</option>
@@ -17,6 +23,7 @@
         <option value="newest">공지</option>
     </select>
 </div>
+<main>
 <div class="container">
 <div class="card">
     <div class="pathNote_header">
