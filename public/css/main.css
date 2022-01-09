@@ -5,6 +5,15 @@
 
 @font-face { font-family: 'Cafe24SsurroundAir'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff'); font-weight: normal; font-style: normal; }
 
+:root {
+  --color_white: #fff;
+  --color_black: #000;
+  --header_link: #fff;
+  --header_link_select: #dfdfdf;
+  --bottom_link: #7a7a7a;
+  --bottom_link_select: #bbb;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -12,7 +21,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--color_white);
   font-family: 'Noto Sans KR', sans-serif;
   transition: background-color 0.4s;
 }

@@ -1,9 +1,4 @@
 /* 헤더, 네비게이션 */
-:root {
-  --color_white: #fff;
-  --color_select: #dfdfdf;
-}
-
 .navbarBg {
   width: 100%;
   padding-bottom: 60px;
@@ -44,7 +39,7 @@ header {
 }
 
 .logo:hover .logoImg g {
-  fill: var(--color_select);
+  fill: var(--header_link_select);
 }
 .logo {
   margin: 0px 30px;
@@ -70,16 +65,16 @@ header {
 }
 
 .highlight, .menu > .router-link-exact-active {
-  border-top: 2px solid var(--color_white) !important;
+  border-top: 2px solid var(--header_link) !important;
   height: calc(100% - 4px);
   padding-bottom: 2px;
 }
 
 .menu a:hover {
-  color: var(--color_select);
+  color: var(--header_link_select);
 }
 .menu a:hover path {
-  fill: var(--color_select);
+  fill: var(--header_link_select);
 }
 .menu a {
   font-size: 15px;
@@ -87,7 +82,7 @@ header {
   align-items: center;
   padding: 0px 10px;
   text-decoration: none;
-  color: var(--color_white);
+  color: var(--header_link);
 }
 @media all and (max-width: 720px) { 
   .menu a {
@@ -96,7 +91,7 @@ header {
 }
 
 .RightMenu {
-  color: var(--color_white);
+  color: var(--header_link);
   margin-right: 30px;
   display: flex;
   align-items: center;
@@ -148,7 +143,7 @@ header {
   width: 100%;
   height: 4px;
   transition: all 0.25s cubic-bezier(.18,.89,.32,1.28);
-  background: var(--color_white);
+  background: var(--header_link);
 }
 .burgerToggle div:nth-child(1) {
   transform: rotate(-45deg) translate(-6px, 8px);
@@ -173,7 +168,7 @@ header {
 }
 
 .mobMenu_links a {
-  color: var(--color_white);
+  color: var(--header_link);
   text-decoration: none;
   font-size: 18px;
   padding: 15px 50px;
