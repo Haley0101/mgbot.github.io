@@ -27,7 +27,7 @@
 <div class="container">
 <div class="card">
     <div class="pathNote_header">
-        <img src="https://happycoding.team/static/assets/img/members/Haley.png">
+        <img src='img/haley.webp'>
         <a class="name">haley</a>
         <a class="version">v1.0</a>
     </div>
@@ -45,7 +45,7 @@
 </div>
 <div class="card">
     <div class="pathNote_header">
-        <img src="https://happycoding.team/static/assets/img/members/Haley.png">
+        <img src='img/haley.webp'>
         <a class="name">haley</a>
         <a class="version">v1.0</a>
     </div>
@@ -67,7 +67,7 @@
 </div>
 <div class="card">
     <div class="pathNote_header">
-        <img src="https://happycoding.team/static/assets/img/members/Haley.png">
+        <img src='img/haley.webp'>
         <a class="name">haley</a>
         <a class="version">v1.0</a>
     </div>
