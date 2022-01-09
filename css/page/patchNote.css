@@ -5,6 +5,10 @@ main {
   overflow: hidden;
 }
 
+hr {
+  border-color: #0002;
+}
+
 .miniNav {
   display: flex;
   justify-content: center;
@@ -36,7 +40,7 @@ main {
   }
 }
 
-.nav_btn:hover {
+.miniNav_nav a:hover {
   background: var(--color_white);
   color: var(--color_black);
 }
@@ -165,6 +169,7 @@ main {
   font-size: 20px;
   margin-top: 3px;
   padding-right: 5px;
+  cursor: pointer;
 }
 
 .like_count {
