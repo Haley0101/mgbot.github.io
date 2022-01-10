@@ -1,16 +1,16 @@
 main {
     padding-top: 180px;
     margin: 0px auto;
-    width: 1000px;
+    width: 1060px;
 }
 @media all and (max-width: 1200px) { 
     main {
-        width: 850px;
+        width: 910px;
     }
 }
 @media all and (max-width: 1020px) { 
     main {
-        width: 750px;
+        width: 810px;
     }
 }
 @media all and (max-width: 830px) { 
@@ -18,46 +18,90 @@ main {
         width: 100%;
     }
 }
-@media all and (max-width: 460px) { 
+@media all and (max-width: 720px) { 
     main {
-        width: 80%;
+        padding-top: 120px;
     }
 }
 
-.help_left {
+.leftMenu {
     position: fixed;
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: 18px;
-    width: 300px;
-    height: calc(100vh - 60px);
+    padding-left: 30px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
+@media all and (max-width: 650px) { 
+    .leftMenu {
+        font-size: 15px;
+    }
+}
 
-.help_left ul:hover {
+.leftMenu ul {
+    margin-left: 10px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.leftMenu li:hover {
+    color: #0009;
+}
+.leftMenu li {
+    color: #0004;
+    cursor: pointer;
+    padding: 5px;
+    list-style: none;
+}
+
+.leftMenu p:hover {
     color: #000;
 }
-.help_left ul {
-    color: #0009;
+.leftMenu p {
+    color: #000a;
     cursor: pointer;
     padding: 5px;
     width: fit-content;
 }
 
-.help_left li {
-    list-style: none;
-}
-
-.help_right {
-    min-height: calc(100vh - 60px - 170px);
+.main {
+    min-height: calc(100vh - 170px - 180px - 100px);
     margin-left: 300px;
+    padding: 0px 30px 100px 0px;
+}
+@media all and (max-width: 1200px) { 
+    .main {
+        margin-left: 250px;
+    }
+}
+@media all and (max-width: 1020px) { 
+    .main {
+        margin-left: 200px;
+    }
+}
+@media all and (max-width: 720px) { 
+    .main {
+        margin-left: 170px;
+        min-height: calc(100vh - 100px - 344px - 120px);
+    }
+}
+@media all and (max-width: 650px) { 
+    .main {
+        margin-left: 140px;
+    }
 }
 
-.help_right hr {
+@media all and (max-width: 650px) { 
+    .main h1 {
+        font-size: 25px;
+    }
+}
+
+.main hr {
     margin: 10px 0px 25px 0px;
     border-color: #0005;
 }
@@ -68,6 +112,12 @@ main {
     gap: 20px;
     font-size: 18px;
     font-weight: 400;
+    word-break: keep-all;
+}
+@media all and (max-width: 650px) { 
+    .content {
+        font-size: 15px;
+    }
 }
 
 .content a:hover {

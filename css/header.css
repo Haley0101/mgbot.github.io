@@ -173,7 +173,8 @@ header {
   padding: 15px 50px;
 }
 
-.mobMenu_links hr {
+hr {
   width: 85%;
   margin: 0px auto;
+  border-color: #0006;
 }
