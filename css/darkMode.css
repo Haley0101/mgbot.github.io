@@ -34,70 +34,64 @@ hr {
 
 footer {
     background-color: rgb(11, 12, 13) !important;
-    color: rgb(232, 230, 227) !important;
     box-shadow: rgb(0 0 0 / 50%) 0px 0px 30px !important;
 }
 
-.logo4 {
-    color: rgb(232, 230, 227) !important;
+option {
+    color: #fff !important;
 }
 
-.footer1 a {
-    color: rgb(232, 230, 227) !important;
-    text-decoration-color: initial !important;
+#home h1 {
+    color: #fff !important;
 }
 
-.box1 {
-    background-color: #111113 !important;
-    box-shadow: rgb(79 86 89 / 40%) 0px 0px 25px 0px !important;
+#home h3 {
+    color: #e0e0e0 !important;
 }
 
-.left_content h1 {
-    color: #f5f5f5 !important;
+#home .section3 h1 {
+    color: #eeeeee !important;
 }
 
-.banner_content a {
-    color: #afafaf !important;
+.button {
+    color: #fff !important;
 }
 
-.button1 {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+.card, #dev section {
+    background-color: #0f0f0f !important;
 }
 
-.button2 {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+.leftMenu p {
+    color: #fffa !important;
 }
 
-.minigame_title h1 {
-    color: #f5f5f5 !important;
+.leftMenu p:hover {
+    color: #fff !important;
 }
 
-.minigame_title a {
-    color: #c2c2c2 !important;
+.leftMenu li {
+    color: #fff4 !important;
 }
 
-#banner3 h1 {
-    color: #ffffff !important;
+.leftMenu li:hover {
+    color: #fff9 !important;
 }
 
-.links a i {
+.links i:hover {
+    color: #fff !important;
+}
+
+.links i {
     padding: 2px 4px;
-    color: #bbb;
+    color: #ddd;
 }
 
-.links a i:hover {
-    color: #fff;
+.links svg:hover g {
+    fill: #fff !important;
 }
 
-.footer1 a {
-    color: #7a7a7a !important;
-    text-decoration: none;
-}
-
-.footer1 a:hover {
-    color: #bbb !important;
+.links g {
+    fill: #ddd;
 }
 
 /* 20210724 Dev 페이지 아이콘 픽스-SSKATE */

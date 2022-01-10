@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/crossbrowser.css"
   },
   {
-    "revision": "2555175c867732009383c127f79fa452",
+    "revision": "1f7fc14b2e014e6c737c0de7fd06cc5c",
     "url": "/css/darkMode.css"
   },
   {
