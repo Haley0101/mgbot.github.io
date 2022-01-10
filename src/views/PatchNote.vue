@@ -23,7 +23,7 @@
         <option value="newest">공지</option>
     </select>
 </div>
-<main>
+<main id="patchNote">
 <div class="container">
 <div class="card">
     <div class="pathNote_header">

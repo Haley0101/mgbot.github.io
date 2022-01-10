@@ -1,5 +1,5 @@
 <template>
-<main>
+<main id="home">
 <section id="section1">
     <div class="section1_left">
         <h1>환영합니다!</h1>
@@ -54,7 +54,7 @@
 <style scoped src="../../public/css/page/home.css"></style>
 <style src="../../public/css/rollingNumber.css"></style>
 
-<script>
+<script scoped>
 // import axios from 'axios';
 import num_roll from '../../public/js/rollingNumber.js';
 
